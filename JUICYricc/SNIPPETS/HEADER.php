@@ -63,9 +63,6 @@
             </div>
             <div class="navbar__navigation--container--backround">
                 <div class="navbar__navigation__container">
-
-
-
                     <ul id="navbar__list--item">
                         <li class="navbar__item"><a class="navbar__link" href="#new-in__section--position">New In</a></li>
                         <li class="navbar__item"><a class="navbar__link" href="#">Spot</a></li>
@@ -74,8 +71,6 @@
                         <li class="navbar__item"><a class="navbar__link" href="#">Event</a></li>
                         <li class="navbar__item"><a class="navbar__link" href="#">JuiChat</a></li>
                     </ul>
-
-
                 </div>
             </div>
             <div class="navbar__toggle" id="mobile--menu">

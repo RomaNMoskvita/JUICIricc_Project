@@ -19,18 +19,24 @@
             <div class="website__traffic--banner">
                 <div class="traffic__banner--item traffic__online">
                     <h2>Online</h2>
-                    <h3>42</h3>
+                    <h3 class="online__traffic--animation" id="online__traffic">42</h3>
                 </div>
                 <div class="traffic__banner--item traffic__signup">
                     <h2>Sign Up</h2>
-                    <h3>66</h3>
+                    <h3 id="signup__traffic">66</h3>
                 </div>
                 <div class="traffic__banner--item traffic__spots">
                     <h2>Spots</h2>
-                    <h3>99</h3>
+                    <h3 id="spots__traffic">99</h3>
                 </div>
-                <div class="traffic__button--signup">
-                    <button class="button__light--toggle">Sign Up</button>
+
+                <div class="traffic__button--container">
+                    <div class="traffic__button--signup">
+                        <button class="button__signup">Sign Up</button>
+                    </div>
+                    <div class="traffic__button--signup">
+                        <button class="button__signin">Sign In</button>
+                    </div>
                 </div>
             </div>
             <div class="banner__ilustration--right">
@@ -65,7 +71,7 @@
                 </div>
 
                 <div class="event__learn--more">
-                    <a href="#">Learn more</a>
+                    <a href="https://www.streetleague.com/">Learn more</a>
                 </div>
             </div>
             <div class="new-in__text--content">

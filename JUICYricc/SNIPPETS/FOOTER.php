@@ -159,6 +159,7 @@
 <!-- JS Scripts Section -->
 
 <script src="../JS/index.js"></script>
+<script src="../JS/trafficSection.js"></script>
 
 </body>
 

@@ -1,5 +1,6 @@
 /* Website Traffic Section */
 .website__traffic{
+    margin-top: 120px;
     max-width: 9999px;
     width: 100%;
     display: flex;
@@ -50,6 +51,46 @@
     color: #fff;
     margin-bottom: 5px;
 }
+
+.traffic__button--container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button__signup{
+    background-color: #c00f0f;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    color: #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+.button__signup:hover{
+    color: #131313;
+    background-color: #fff;
+  }
+
+.button__signin{
+    background-color: #131313;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    color: #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button__signin:hover{
+    color: #131313;
+    background-color: #fff;
+  }
 
 .website__traffic--banner--container{
     display: flex;
@@ -335,3 +376,13 @@ color: #fff;
 .slide__show--right--container{
     overflow: hidden;
 }
+
+.traffic__value--animatio {
+    animation: traffic__value--animatio 2s ease;
+  }
+
+@keyframes traffic__value--animatio {
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      40% {transform: translateY(-10px);}
+      60% {transform: translateY(-5px);}
+  }
