@@ -1,0 +1,337 @@
+/* Website Traffic Section */
+.website__traffic{
+    max-width: 9999px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 600px;
+    padding-top: 40px;
+    scroll-margin-top: 140px;
+}
+
+.website__traffic--container{
+    display: flex;
+    flex-direction: column;
+}
+
+.traffic__banner--icon{
+    display: flex;
+    justify-content: center;
+    /*margin-top: 40px;*/
+    margin-bottom: 10px;
+
+}
+
+.website__traffic--banner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 460px;
+    width: 460px;
+    background-color: #131313;
+    border-radius: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    z-index: 2;
+}
+
+.traffic__banner--item{
+    border: 2px solid #fff;
+    border-radius: 4px;
+    width: 400px;
+}
+.traffic__banner--item h2{
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.traffic__banner--item h3{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.website__traffic--banner--container{
+    display: flex;
+    align-items: end;
+}
+
+.banner__ilustration--left{
+    position: relative;
+    left: 20px;
+    z-index: 1;
+    bottom: 15px;
+}
+
+.banner__ilustration--right{
+    position: relative;
+    right: 20px;
+    z-index: 1;
+}
+
+/* New In Section */
+
+.new-in__section{
+    max-width: 9999px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #131313;
+    height: 600px;
+    scroll-margin-top: 140px;
+    position: relative;
+    z-index: 100;
+}
+
+.new-in__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    max-width: 1300px;
+    width: 1000px;
+}
+
+.new-in__header{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.new-in__header h1{
+
+    font-size: 3rem;
+    color: #fff;
+}
+.new-in__header h2{
+    text-align: right;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.new-in__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.new-in__media--content h3{
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    word-spacing: 2px;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.new-in__media--content h4{
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    word-spacing: 2px;
+    text-align: right;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+
+.event__button--section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button__event{
+    background-color: #131313;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    height: 60px;
+    width: 140px;
+    color: #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button__event:hover{
+    color: #131313;
+    background-color: #fff;
+  }
+
+  .event__learn--more{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .event__learn--more a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition-duration: 0.4s;
+  }
+
+  .event__learn--more a:hover{
+    color: #c8c8c8;
+  }
+
+iframe{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.user--icon__container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 300px;
+    background-color: #252525;
+    margin-left: 20px;
+}
+
+.user--icon__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.user--icon__card p{
+margin-top: 10px;
+color: #fff;
+}
+
+.user--icon{
+    border-radius: 50%;
+}
+
+/*New-in two Section*/
+.new-in__two--section{
+    max-width: 9999px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 500px;
+    scroll-margin-top: 140px;
+    padding-top: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+} 
+
+.new-in__two--container{
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.new-in__slideshow--skatepark img{
+    border-top-right-radius: 40px ;
+    border-bottom-right-radius: 40px ;
+    height: 450px;
+}
+
+.slide__card{
+    display: none;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px 6px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+  .slide__show--left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .point__slideshow--bar--hor{
+    position: relative;
+    top: 10px;
+  }
+
+  .slide__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -120px;
+  }
+
+  .slide__text p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  /*Slideshow Left Side*/
+  .slide__show--right{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .point__slideshow--bar--ver{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+
+  .slideshow__figure--card{
+    margin-right: 200px;
+    margin-bottom: 60px;
+    position: relative;
+    left: 560px;
+    top: 40px;
+    transition: transform 1s ease-in-out;
+  }
+
+  .dot__figure{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px 6px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot__figure:hover{
+    background-color: #717171;
+}
+
+.slideshow__figure--card{
+    display: none;
+}
+
+.figure--icon{
+    border-radius: 50%;
+}
+
+
+
+.slide__show--right--head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    z-index: 888;
+}
+
+.slide__show--right--container{
+    overflow: hidden;
+}
