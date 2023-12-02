@@ -160,6 +160,7 @@
 
 <script src="../JS/index.js"></script>
 <script src="../JS/trafficSection.js"></script>
+<script src="../JS/responsiveTransform.js"></script>
 
 </body>
 
