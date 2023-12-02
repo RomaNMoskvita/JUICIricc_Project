@@ -26,11 +26,6 @@
     position: sticky;
   }
 
-  .navbar:nth-child(2){
-    top: 0%;
-    position: sticky;
-  }
-
 /* Navbar Logo Section */
 
   .navbar__logo--container--backround{
@@ -95,14 +90,12 @@
   .button__light--toggle:hover{
     color: #131313;
     background-color: #fff;
-
   }
 
   .navbar__searchbar{
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
 
   #searchbar--box{
@@ -215,4 +208,8 @@
 .navbar__link:hover{
     border: 3px solid #131313;
     border-radius: 2px;
+}
+
+.navbar__JUICYricc__container{
+  display: none;
 }

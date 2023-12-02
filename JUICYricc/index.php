@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="new-in__text--content">
-                <iframe width="660" height="371" src="https://www.youtube.com/embed/FbizgyRIoYw?si=UQ7NV1_YZUco3TR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="100%" height="371" src="https://www.youtube.com/embed/FbizgyRIoYw?si=UQ7NV1_YZUco3TR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
 

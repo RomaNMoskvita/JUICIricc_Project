@@ -18,7 +18,13 @@
         <nav class="navbar">
             <div class="navbar__logo--container--backround">
                 <div class="navbar__logo--container">
+
                     <div class="navbar__light--toggle">
+                        <div class="navbar__toggle" id="mobile--menu">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
                         <button class="button__light--toggle">LightMood</button>
 
                     </div>
@@ -30,7 +36,7 @@
                             <form action="#" method="get">
                                 <input type="text" placeholder="Search" id="searchbar--box" autofocus="false">
                             </form>
-                            <button id="search--button" type="button"><svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <button id="search--button" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                     <style>
                                         svg {
                                             fill: #ffffff
@@ -73,10 +79,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="navbar__toggle" id="mobile--menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div class="navbar__JUICYricc__container">
+                <div id="navbar__JUICYricc">
+                    <a class="navbar__link" href="#">JuiChat</a>
+                </div>
             </div>
         </nav>
     </div>
