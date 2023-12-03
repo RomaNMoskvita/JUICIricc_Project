@@ -16,11 +16,15 @@
     flex-direction: column;
 }
 
-.traffic__banner--icon{
+.traffic__banner--icon {
     display: flex;
     justify-content: center;
     /*margin-top: 40px;*/
     margin-bottom: 10px;
+}
+
+.traffic__banner--icon svg{
+    fill: #131313;
 }
 
 .website__traffic--banner{
@@ -102,9 +106,15 @@
     z-index: 1;
     bottom: 15px;
 }
+
 .banner__ilustration--left--sm{
     display: none;
 }
+
+.banner__ilustration--right--sm{
+    display: none;
+}
+
 .banner__ilustration--right{
     position: relative;
     right: 20px;

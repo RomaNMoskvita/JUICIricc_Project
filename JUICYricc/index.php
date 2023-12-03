@@ -45,6 +45,9 @@
             <div class="banner__ilustration--right">
                 <img src="Images/skete_baner_4.png" alt="">
             </div>
+            <div class="banner__ilustration--right--sm">
+                <img src="Images/skete_baner_sm_2.png" alt="">
+            </div>
         </div>
     </div>
 </div>
