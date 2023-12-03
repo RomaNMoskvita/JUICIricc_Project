@@ -1,0 +1,242 @@
+/* Website Traffic Section */
+.website__traffic{
+    margin-top: 5rem;
+    max-width: 9999px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 600px;
+    padding-top: 2.5rem;
+    scroll-margin-top: 140px;
+}
+
+.website__traffic--container{
+    display: flex;
+    flex-direction: column;
+}
+
+.traffic__banner--icon{
+    display: flex;
+    justify-content: center;
+    /*margin-top: 40px;*/
+    margin-bottom: 10px;
+}
+
+.website__traffic--banner{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 28.75rem;
+    width: 28.75rem;
+    background-color: #131313;
+    border-radius: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    z-index: 2;
+}
+
+.traffic__banner--item{
+    border: 2px solid #fff;
+    border-radius: 4px;
+    width: 25rem;
+}
+.traffic__banner--item h2{
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.traffic__banner--item h3{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.traffic__value--animatio {
+    animation: traffic__value--animatio 2s ease;
+  }
+
+@keyframes traffic__value--animatio {
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      40% {transform: translateY(-10px);}
+      60% {transform: translateY(-5px);}
+  }
+
+.traffic__button--container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button__signup{
+    background-color: #c00f0f;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 3rem;
+    width: 8.75rem;
+    color: #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button__signup:hover{
+    color: #131313;
+    background-color: #fff;
+  }
+
+.button__signin{
+    background-color: #131313;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    color: #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button__signin:hover{
+    color: #131313;
+    background-color: #fff;
+  }
+
+.website__traffic--banner--container{
+    display: flex;
+    align-items: end;
+    margin-top: 3rem;
+}
+
+.banner__ilustration--left{
+    position: relative;
+    left: 20px;
+    z-index: 1;
+    bottom: 15px;
+}
+
+.banner__ilustration--left--sm{
+    display: none;
+}
+
+.banner__ilustration--right{
+    position: relative;
+    right: 20px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1260px){
+
+    .website__traffic{
+        margin-top: 2rem;
+        height: 600px;
+        padding-top: 5rem;
+        scroll-margin-top: 140px;
+    }
+
+    .traffic__banner--item{
+        border: 2px solid #fff;
+        border-radius: 4px;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .traffic__banner--item h2{
+        font-size: 1rem;
+    }
+    .traffic__banner--item h3{
+        font-size: 1rem;
+    }
+
+    .button__signup{
+        font-size: 1rem;
+        height: 2.5rem;
+        width: 8rem;
+        margin-right: 2rem;
+    }
+
+    .button__signin{
+        font-size: 1rem;
+        height: 2.5rem;
+        width: 8rem;
+    }
+
+    .website__traffic--banner{
+        height: 23rem;
+        width: 23rem;
+    }
+
+    .banner__ilustration--left img{
+        width: 15rem;
+        height: auto;
+    }
+
+    .banner__ilustration--right img{
+        width: 15rem;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .website__traffic{
+        margin-top: 6rem;
+        height: 500px;
+        padding-top: 1rem;
+        scroll-margin-top: 140px;
+    }
+
+    .website__traffic--banner{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 22rem;
+        width: 22rem;
+        background-color: #131313;
+        border-radius: 10px;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .banner__ilustration--left{
+        display: none;
+    }
+
+    .banner__ilustration--right{
+        display: none;
+    }
+
+    .traffic__banner--item {
+        margin-top: 1rem;
+    }
+    .banner__ilustration--left--sm{
+        display: block;
+        position: relative;
+        left: 20px;
+        z-index: 1;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .website__traffic{
+        margin-top: 9rem;
+        padding-top: 1rem;
+        scroll-margin-top: 140px;
+    }
+
+    .banner__ilustration--left--sm img{
+        height: 250px;
+        width: auto;
+    }
+
+    .banner__ilustration--left--sm{
+        display: none;
+    }
+
+    .website__traffic{
+        background-image: url("../Images/background_sm_1.png");
+    }
+}

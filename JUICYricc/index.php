@@ -16,6 +16,9 @@
             <div class="banner__ilustration--left">
                 <img src="Images/skete_baner_3.png" alt="">
             </div>
+            <div class="banner__ilustration--left--sm">
+                <img src="Images/skete_baner_sm_1.png" alt="">
+            </div>
             <div class="website__traffic--banner">
                 <div class="traffic__banner--item traffic__online">
                     <h2>Online</h2>

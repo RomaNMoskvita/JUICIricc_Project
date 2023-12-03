@@ -16,6 +16,7 @@ html{
     width: 100%;
     height: 740px;
     align-self: center;
+    position: absolute;
   }
 
   .navbar{
