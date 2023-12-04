@@ -56,17 +56,24 @@
 
     <div class="new-in__container">
         <div class="new-in__header">
-            <h1>This is place for header new-in content</h1>
-            <h2>This is place for header new-in content</h2>
+            <h1>Street League Skateboarding</h1>
+            <h2>From the streets to the league</h2>
         </div>
         <div class="new-in__content">
             <div class="new-in__media--content">
                 <h3>
-                    Let's take part in the Championship SLS
+                    Let's take part in the World Championship SLS Paris 2024
                 </h3>
                 <h4>
-                    The biggest skateboarding event, more than 1000 of the strongest skateboarders
+                    The biggest skateboarding event
                 </h4>
+                <h4>
+                    featured more than 1000 of the world's strongest skateboarders
+                    Don't miss the opportunity to attend the event
+                </h4>
+                <div class="event__learn--more">
+                    <a href="https://www.streetleague.com/">Learn more</a>
+                </div>
                 <div class="event__button--section">
                     <div class="traffic__button--signup">
                         <button class="button__event">Take Part</button>
@@ -75,37 +82,38 @@
                         <button class="button__event">Viewer</button>
                     </div>
                 </div>
-
-                <div class="event__learn--more">
-                    <a href="https://www.streetleague.com/">Learn more</a>
-                </div>
             </div>
             <div class="new-in__text--content">
-                <iframe width="100%" height="371" src="https://www.youtube.com/embed/FbizgyRIoYw?si=UQ7NV1_YZUco3TR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/FbizgyRIoYw?si=UQ7NV1_YZUco3TR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
-
+        <div class="new-in__background--bot">
+        </div>
     </div>
 
     <div class="user--icon__container">
+
         <div class="user--icon__card">
+            <div class="user--icon__header">
+                <h3>Winners of the last<br> Championship</h3>
+            </div>
             <img class="user--icon" src="Images/avatar_1.png" alt="">
             <p>Nyjah Huston
-                United States
+                <br>
                 1'ps
             </p>
         </div>
         <div class="user--icon__card">
             <img class="user--icon" src="Images/avatar_3.png" alt="">
             <p>Yuto Horigome
-                Japan
+                <br>
                 2'ps
             </p>
         </div>
         <div class="user--icon__card">
             <img class="user--icon" src="Images/avatar_2.png" alt="">
             <p>Gustavo Ribeiro
-                Portugal
+                <br>
                 3'ps
             </p>
         </div>
@@ -117,26 +125,26 @@
 
     <div class="new-in__two--container">
         <div class="slide__show--left">
+            <div class="slide__card--header">
+                <h1>Visit The New Skatepark</h1>
+            </div>
             <div class="new-in__slideshow--skatepark">
                 <div class="slide__card ">
-                    <img src="Images/skatepark-projekte-3.jpg" width="100%" alt="">
+                    <img src="Images/skatepark-projekte-3.jpg" alt="">
+                </div>
+                <div class="slide__card ">
+                    <img src="Images/skatepark-projekte-2.jpg" alt="">
+                </div>
+                <div class="slide__card ">
+                    <img src="Images/skatepark-projekte-4.jpg" alt="">
 
                 </div>
                 <div class="slide__card ">
-                    <img src="Images/skatepark-projekte-2.jpg" width="100%" alt="">
+                    <img src="Images/skatepark-projekte-1.jpg" alt="">
 
                 </div>
                 <div class="slide__card ">
-                    <img src="Images/skatepark-projekte-4.jpg" width="100%" alt="">
-
-                </div>
-                <div class="slide__card ">
-                    <img src="Images/skatepark-projekte-1.jpg" width="100%" alt="">
-
-                </div>
-                <div class="slide__card ">
-                    <img src="Images/skatepark-projekte-5.jpg" width="100%" alt="">
-
+                    <img src="Images/skatepark-projekte-5.jpg" alt="">
                 </div>
 
             </div>

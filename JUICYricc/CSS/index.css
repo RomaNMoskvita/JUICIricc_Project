@@ -129,7 +129,7 @@
     display: flex;
     justify-content: center;
     background-color: #131313;
-    height: 600px;
+    height: 41rem;
     scroll-margin-top: 140px;
     position: relative;
     z-index: 100;
@@ -142,18 +142,16 @@
     margin: 0;
     max-width: 1300px;
     width: 1000px;
+    margin-right: 1rem;
 }
 
 .new-in__header{
     display: flex;
-    justify-content: center;
-    margin: 50px;
-    display: flex;
+    align-items: start;
+    margin: 2rem 0 3rem 0;
     flex-direction: column;
-    justify-content: start;
 }
 .new-in__header h1{
-
     font-size: 3rem;
     color: #fff;
 }
@@ -172,25 +170,24 @@
     color: #fff;
     font-size: 1.8rem;
     line-height: 1.5;
-    word-spacing: 2px;
+    word-spacing: 0.2rem;
     text-align: right;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    margin-bottom: 1.2rem;
+    margin-right: 2rem;
 }
 
 .new-in__media--content h4{
     color: #fff;
     font-size: 1.3rem;
     line-height: 1.5;
-    word-spacing: 2px;
+    word-spacing: 0.2rem;
     text-align: right;
-    margin-bottom: 40px;
-    margin-right: 10px;
+    margin-right: 2rem;
 }
 
 .event__button--section{
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
 }
 
 .button__event{
@@ -204,6 +201,8 @@
     color: #fff;
     transition-duration: 0.4s;
     cursor: pointer;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .button__event:hover{
@@ -213,32 +212,45 @@
 
   .event__learn--more{
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    justify-content: end;
+
+    margin: 0.5rem 2rem 2rem 0;
   }
 
   .event__learn--more a{
-    color: #fff;
+    color: #c8a9a9;
     text-decoration: none;
     font-size: 1.2rem;
     transition-duration: 0.4s;
   }
 
   .event__learn--more a:hover{
-    color: #c8c8c8;
+    color: #fff;
   }
 
-iframe{
-    border-radius: 10px;
-    margin-left: 20px;
+.new-in__text--content{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.new-in__text--content iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .user--icon__container{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 300px;
+    width: 16rem;
     background-color: #252525;
-    margin-left: 20px;
+    margin-left: 1.2rem;
+    z-index: 101;
 }
 
 .user--icon__card{
@@ -251,12 +263,30 @@ iframe{
 .user--icon__card p{
 margin-top: 10px;
 color: #fff;
+text-align: center;
 }
 
 .user--icon{
     border-radius: 50%;
 }
 
+.user--icon__header h3{
+    text-align: center;
+    color: #fff;
+    margin: 1rem 0 1rem 0;
+}
+
+.new-in__background--bot{
+    max-width: 9999px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+    background-image:url(../Images/background_new_in_2.png);
+    height: 120px;
+    margin-top: 1rem;
+}
 /*New-in two Section*/
 .new-in__two--section{
     max-width: 9999px;
@@ -272,19 +302,30 @@ color: #fff;
 } 
 
 .new-in__two--container{
-    max-width: 1600px;
+    max-width: 1300px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
+.slide__card--header{
+    margin-bottom: 2rem;
+}
+
+.slide__card--header h1{
+    font-size: 3rem;
+}
+
 .new-in__slideshow--skatepark img{
-    border-top-right-radius: 40px ;
-    border-bottom-right-radius: 40px ;
-    height: 450px;
+    border-radius: 40px ;
+    border-radius: 40px ;
+    height: auto;
+    width: 100%;
 }
 
 .slide__card{
     display: none;
+    width: 100%;
+    height: auto;
 }
 
 .dot{
@@ -380,8 +421,11 @@ color: #fff;
     align-items: center;
     font-size: 1.2rem;
     font-weight: bold;
-    position: relative;
     z-index: 888;
+}
+
+.slide__show--right--head h1{
+    text-align: center;
 }
 
 .slide__show--right--container{
