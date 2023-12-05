@@ -91,7 +91,7 @@
         </div>
     </div>
 
-    <div class="user--icon__container">
+    <div class="user--icon__container" id="user--icon__container--controll">
 
         <div class="user--icon__card">
             <div class="user--icon__header">
@@ -104,7 +104,11 @@
             </p>
         </div>
         <div class="user--icon__card">
-            <img class="user--icon" src="Images/avatar_3.png" alt="">
+            <div id="button__test">
+                <div id="test__test"><button></button></div>
+                <img class="user--icon" src="Images/avatar_3.png" alt="">
+            </div>
+
             <p>Yuto Horigome
                 <br>
                 2'ps

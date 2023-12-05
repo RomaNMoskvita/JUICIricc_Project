@@ -137,7 +137,7 @@
 
 .new-in__container{
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     margin: 0;
     max-width: 1300px;
@@ -149,14 +149,16 @@
     display: flex;
     align-items: start;
     margin: 2rem 0 3rem 0;
+    text-align: left;
     flex-direction: column;
 }
 .new-in__header h1{
     font-size: 3rem;
     color: #fff;
+    
 }
 .new-in__header h2{
-    text-align: right;
+    text-align: left;
     font-size: 2rem;
     color: #fff;
 }
@@ -171,7 +173,7 @@
     font-size: 1.8rem;
     line-height: 1.5;
     word-spacing: 0.2rem;
-    text-align: right;
+    text-align: left;
     margin-bottom: 1.2rem;
     margin-right: 2rem;
 }
@@ -181,13 +183,13 @@
     font-size: 1.3rem;
     line-height: 1.5;
     word-spacing: 0.2rem;
-    text-align: right;
+    text-align: left;
     margin-right: 2rem;
 }
 
 .event__button--section{
     display: flex;
-    justify-content: end;
+    justify-content: start;
 }
 
 .button__event{
@@ -201,7 +203,6 @@
     color: #fff;
     transition-duration: 0.4s;
     cursor: pointer;
-    margin-left: 2rem;
     margin-right: 2rem;
   }
 
@@ -212,8 +213,7 @@
 
   .event__learn--more{
     display: flex;
-    justify-content: end;
-
+    justify-content: start;
     margin: 0.5rem 2rem 2rem 0;
   }
 

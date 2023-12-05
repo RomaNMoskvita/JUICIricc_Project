@@ -11,6 +11,7 @@ function updateStylesheet() {
   let hrefAtr = styleLinkHeader.getAttribute("href");
 
   if (window.innerWidth <= 1424 && hrefAtr === "../CSS/header.css") {
+    console.log("lol");
     styleLinkIndex.href = "../CSS/indexResponsive.css";
     styleLinkHeader.href = "../CSS/headerResponsive.css";
     styleLinkFooter.href = "../CSS/footerResponsive.css";
@@ -21,6 +22,13 @@ function updateStylesheet() {
     styleLinkIndex.href = "../CSS/index.css";
     styleLinkHeader.href = "../CSS/header.css";
     styleLinkFooter.href = "../CSS/footer.css";
+  }
+
+  //
+  const userIcon = document.getElementById("user--icon__container--controll");
+  if (window.innerWidth < 1200) {
+    let actualResize = window.innerWidth;
+    userIcon.style.left = `calc(928px + ${actualResize - 1200}px)`;
   }
 }
 
