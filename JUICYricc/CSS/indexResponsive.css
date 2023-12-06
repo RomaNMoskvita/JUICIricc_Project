@@ -193,6 +193,7 @@
     .traffic__banner--icon{
         margin-top: 4.5rem;
     }
+
 }
 
 @media screen and (max-width: 800px){
@@ -476,6 +477,7 @@ text-align: center;
     .new-in__background--bot{
         margin-top: 3rem;
     }
+
 }
 
 /* Temporary */
@@ -492,6 +494,7 @@ text-align: center;
     #user--icon__container--controll{
         left: calc(1024px);
         position: absolute;
+        transition-duration: 0.4s;
     }
 
     .new-in__content{
@@ -503,25 +506,50 @@ text-align: center;
             align-items: center;
             
         }
+
         #button__winners{
             position: absolute;
-            margin-left: -132px;
+            margin-left: -130px;
             display: block;
         }
+
         #button__winners button{
         width: 100px;
         height: 25px;
         rotate: 90deg;
         font-weight: bold;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        background-color: #252525;
+        border: none;
+        color: #fff;
+        letter-spacing: 1px;
+        }
+
+        .userIconForward{
+            transform: translate(-220px, 0px);
         }
 }
 
 @media screen and (max-width: 1000px) {
     .new-in__section{
-
+        height: 560px;
         margin-top: 3.3rem;
         
     }
+
+    .event__learn--more{
+        display: flex;
+        justify-content: start;
+        margin: 0.5rem 1rem 1rem 0;
+      }
+      .button__event{
+        font-size: 1.1rem;
+        font-weight: bold;
+        height: 40px;
+        width: 120px;
+        margin-right: 2rem;
+      }
 }
 
 @media screen and (max-width: 800px){

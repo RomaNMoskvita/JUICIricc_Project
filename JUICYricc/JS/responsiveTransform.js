@@ -28,7 +28,7 @@ function updateStylesheet() {
   const userIcon = document.getElementById("user--icon__container--controll");
   if (window.innerWidth < 1200) {
     let actualResize = window.innerWidth;
-    userIcon.style.left = `calc(1180px + ${actualResize - 1200}px)`;
+    userIcon.style.left = `calc(1160px + ${actualResize - 1200}px)`;
   }
 }
 

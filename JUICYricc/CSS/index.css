@@ -287,6 +287,8 @@ text-align: center;
     height: 120px;
     margin-top: 1rem;
 }
+
+
 /*New-in two Section*/
 .new-in__two--section{
     max-width: 9999px;
@@ -441,3 +443,10 @@ text-align: center;
       40% {transform: translateY(-10px);}
       60% {transform: translateY(-5px);}
   }
+
+  /* Temporary */
+
+
+#button__winners{
+    display: none;
+}
