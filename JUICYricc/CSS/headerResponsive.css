@@ -19,9 +19,6 @@ html{
     position: absolute;
   }
 
-  @media screen and (max-width: ) {
-    
-  }
 
   .navbar{
     display: flex;
@@ -235,12 +232,21 @@ html{
     display: none;
 }
 
+@media screen and (max-width: 1260px){
+  .navbar__container{
+    height: 660px;
+  }
+}
 
 
 @media screen and (max-width: 1000px){
 
     html{
         font-size: 14px;
+    }
+
+    .navbar__container{
+      height: 590px;
     }
 
     #searchbar--box{
@@ -252,10 +258,26 @@ html{
       }
 }
 
+@media screen and (max-width: 800px){
+    .navbar__container{
+      height: 560px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .navbar__container{
+      height: 630px;
+    }
+}
+
 @media screen and (max-width: 500px){
 
     html{
         font-size: 12px;
+    }
+
+    .navbar__container{
+      height: 570px;
     }
 
     .navbar__logo--container{
@@ -293,11 +315,12 @@ html{
       #search--button{
         margin-right: 0.8rem;
       }
-
-  
 }
 
 @media screen and (max-width: 400px){
+  .navbar__container{
+    height: 600px;
+  }
     .navbar__JUICYricc__container{
         display: flex;
         justify-content: center;

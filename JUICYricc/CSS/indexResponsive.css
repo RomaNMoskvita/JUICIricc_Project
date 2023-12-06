@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     background-color: #fff;
-    height: 600px;
+    height: 605px;
     padding-top: 2.5rem;
     scroll-margin-top: 140px;
 }
@@ -136,8 +136,8 @@
 @media screen and (max-width: 1260px){
 
     .website__traffic{
-        margin-top: 5rem;
-        height: 600px;
+        margin-top: 3rem;
+        height: 580px;
         padding-top: 5rem;
         scroll-margin-top: 140px;
     }
@@ -186,6 +186,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .website__traffic{
+        height: 500px;
+        margin-top: 3rem;
+    }
     .traffic__banner--icon{
         margin-top: 4.5rem;
     }
@@ -194,7 +198,7 @@
 @media screen and (max-width: 800px){
     .website__traffic{
         margin-top: 6rem;
-        height: 500px;
+        height: 400px;
         padding-top: 1rem;
         scroll-margin-top: 140px;
     }
@@ -474,9 +478,19 @@ text-align: center;
     }
 }
 
+/* Temporary */
+.slide__card img{
+    display: none;
+}
+
+#button__winners{
+    display: none;
+}
+
 @media screen and (max-width: 1200px){
+
     #user--icon__container--controll{
-        left: calc(924px);
+        left: calc(1024px);
         position: absolute;
     }
 
@@ -484,32 +498,56 @@ text-align: center;
         margin-right: 1.5rem;
     }
 
+        #button__winners--container{
+            display: flex;
+            align-items: center;
+            
+        }
+        #button__winners{
+            position: absolute;
+            margin-left: -132px;
+            display: block;
+        }
+        #button__winners button{
+        width: 100px;
+        height: 25px;
+        rotate: 90deg;
+        font-weight: bold;
+        }
 }
 
+@media screen and (max-width: 1000px) {
+    .new-in__section{
 
-
-
-
-
-
-
-/* Temporary */
-.slide__card img{
-    display: none;
+        margin-top: 3.3rem;
+        
+    }
 }
 
-#button__test{
-    display: flex;
-    align-items: center;
-    
-}
-#test__test{
-    position: absolute;
-    margin-left: -100px;
-    
-}
-#test__test button{
-width: 100px;
-height: 100px;
+@media screen and (max-width: 800px){
 
+    .new-in__section{
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .website__traffic{
+
+        height: 500px;
+    }
+
+    .new-in__section{
+        margin-top: 0rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .website__traffic{
+        height: 460px;
+    }
+
+    .new-in__section{
+        margin-top: 0rem;
+    }
 }
