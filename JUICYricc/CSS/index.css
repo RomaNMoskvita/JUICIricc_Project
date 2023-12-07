@@ -314,7 +314,7 @@ text-align: center;
 }
 
 .slide__card--header h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .new-in__slideshow--skatepark img{
@@ -369,7 +369,7 @@ text-align: center;
     color: #fff;
   }
 
-  /*Slideshow Left Side*/
+  /*Slideshow Right Side*/
   .slide__show--right{
     display: flex;
     justify-content:space-between;
@@ -421,12 +421,20 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     z-index: 888;
 }
 
 .slide__show--right--head h1{
+    text-align: center;
+}
+
+.slide__show--right--head h2{
+    text-align: center;
+}
+
+.slide__show--right--head h3{
     text-align: center;
 }
 

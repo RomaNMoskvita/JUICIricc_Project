@@ -66,7 +66,7 @@ function showSlidesFig(m) {
 
   slidesFig[slideIndexFig - 1].style.display = "block";
   setTimeout(function () {
-    slidesFig[slideIndexFig - 1].style.transform = "translate(-520px, 0px)";
+    slidesFig[slideIndexFig - 1].style.transform = "translate(-510px, 0px)";
   }, 100);
 
   dotsFig[slideIndexFig - 1].className += " active";

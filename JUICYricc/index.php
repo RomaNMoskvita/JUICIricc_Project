@@ -166,8 +166,10 @@
         </div>
         <div class="slide__show--right--container">
             <div class="slide__show--right--head">
-                <h1>This is place for header new-in content</h1>
-                <h2>This is place for header new-in content</h2>
+                <h1>Explore the Exciting Figures</h1>
+                <h2>Dive into the World of Thrills and Skills</h2>
+                <h3>As We
+                    Introduce the Cutting-Edge Features<br> of Our Latest Skatepark Design</h3>
             </div>
             <div class="slide__show--right">
                 <div class="point__slideshow--bar--ver">

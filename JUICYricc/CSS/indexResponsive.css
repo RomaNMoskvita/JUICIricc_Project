@@ -480,11 +480,6 @@ text-align: center;
 
 }
 
-/* Temporary */
-.slide__card img{
-    display: none;
-}
-
 #button__winners{
     display: none;
 }
@@ -697,3 +692,265 @@ text-align: center;
         margin-right: 2rem;
     }
 }
+
+/* New-in Section 2 */
+
+.new-in__two--section{
+    max-width: 9999px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 500px;
+    scroll-margin-top: 140px;
+    padding-top: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+} 
+
+.new-in__two--container{
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.slide__card--header{
+    margin-bottom: 2rem;
+}
+
+.slide__card--header h1{
+    font-size: 2.5rem;
+}
+
+.new-in__slideshow--skatepark img{
+    border-radius: 40px ;
+    border-radius: 40px ;
+    height: auto;
+    width: 100%;
+}
+
+.slide__card{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px 6px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+  .slide__show--left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2rem;
+  }
+  .point__slideshow--bar--hor{
+    position: relative;
+    top: 10px;
+  }
+
+  .slide__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -120px;
+  }
+
+  .slide__text p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  /*Slideshow Right Side*/
+  .slide__show--right{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .point__slideshow--bar--ver{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+
+  .slideshow__figure--card{
+    margin-right: 200px;
+    margin-left: 5rem;
+    margin-bottom: 60px;
+    position: relative;
+    left: 560px;
+    top: 40px;
+    transition: transform 1s ease-in-out;
+  }
+
+  .dot__figure{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px 6px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot__figure:hover{
+    background-color: #717171;
+}
+
+.slideshow__figure--card{
+    display: none;
+}
+
+.figure--icon{
+    border-radius: 50%;
+    /*
+    width: 339;
+    height: 312;
+    */
+
+    width: 100%;
+}
+
+
+
+.slide__show--right--head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    z-index: 888;
+}
+
+.slide__show--right--head h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.slide__show--right--head h2{
+    text-align: center;
+}
+
+.slide__show--right--head h3{
+    text-align: center;
+}
+
+.slide__show--right--container{
+    overflow: hidden;
+}
+
+.traffic__value--animatio {
+    animation: traffic__value--animatio 2s ease;
+  }
+
+@keyframes traffic__value--animatio {
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      40% {transform: translateY(-10px);}
+      60% {transform: translateY(-5px);}
+  }
+
+  @media screen and (max-width: 1200px){
+    .slide__card--header {
+        margin-bottom: 1rem;
+    }
+    .slide__card--header h1{
+        font-size: 2rem;
+    }
+    .slide__text {
+        top: -100px;
+        
+      }
+    .slide__text p{
+        font-size: 0.8rem;
+        
+      }
+  }
+
+  @media screen and (max-width: 1000px){
+    .slide__text {
+        top: -80px;
+      }
+  }
+  @media screen and (max-width: 900px){
+    .slide__text {
+        top: -80px;
+      }
+
+      .slide__card--header h1{
+        font-size: 1.8rem;
+    }
+
+      .slide__show--right--head h1{
+        font-size: 1.5rem;
+    }
+    
+    .slide__show--right--head h2{
+        font-size: 1.2rem;
+    }
+    
+    .slide__show--right--head h3{
+        font-size: 1rem;
+    }
+
+  }
+  @media screen and (max-width: 850px){
+
+    .new-in__two--section{
+        height: 940px;
+        overflow: hidden;
+    } 
+
+    .slideshow__figure--card{
+        margin-right: 50vw;
+        margin-left: 14%;
+        width: 300px;
+        left: 560px;
+      }
+
+    .new-in__two--container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .new-in__slideshow--skatepark{
+        width: 80%;
+    }
+
+    .slide__card--header h1{
+        font-size: 2rem;
+    }
+
+      .slide__show--right--head h1{
+        font-size: 1.8rem;
+    }
+    
+    .slide__show--right--head h2{
+        font-size: 1.4rem;
+    }
+    
+    .slide__show--right--head h3{
+        font-size: 1.2rem;
+    }
+
+    .point__slideshow--bar--ver{
+        margin-left: 20px;
+      }
+    
+
+  }
