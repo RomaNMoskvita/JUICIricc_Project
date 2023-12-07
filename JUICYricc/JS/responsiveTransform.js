@@ -23,14 +23,17 @@ function updateStylesheet() {
     styleLinkHeader.href = "../CSS/header.css";
     styleLinkFooter.href = "../CSS/footer.css";
   }
-
   //
   const userIcon = document.getElementById("user--icon__container--controll");
-  if (window.innerWidth < 1200) {
-    let actualResize = window.innerWidth;
-    userIcon.style.left = `calc(1160px + ${actualResize - 1200}px)`;
-  }
+  setTimeout(function () {
+    if (window.innerWidth < 1200) {
+      console.log("i am hear");
+      let actualResize = window.innerWidth;
+      userIcon.style.left = `calc(1160px + ${actualResize - 1200}px)`;
+    }
+  }, 100);
 }
 
 window.onload = updateStylesheet;
 window.onresize = updateStylesheet;
+window.onload = updateStylesheet;
