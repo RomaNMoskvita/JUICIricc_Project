@@ -168,7 +168,7 @@
             <div class="slide__show--right--head">
                 <h1>Explore the Exciting Figures</h1>
                 <h2>Dive into the World of Thrills and Skills</h2>
-                <h3>As We
+                <h3 id="slide--text--hide">We
                     Introduce the Cutting-Edge Features<br> of Our Latest Skatepark Design</h3>
             </div>
             <div class="slide__show--right">
@@ -196,7 +196,10 @@
                         <img class="figure--icon" src="Images/skate_fig_3.png" alt="">
                     </div>
                 </div>
-
+            </div>
+            <div id="slide--text--active">
+                <h3>We
+                    Introduce the Cutting-Edge Features<br> of Our Latest Skatepark Design</h3>
             </div>
 
         </div>
@@ -205,6 +208,7 @@
 
 </div>
 
+<div class="new-in__two--section--bkg"></div>
 
 
 </div>

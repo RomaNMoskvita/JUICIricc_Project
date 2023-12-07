@@ -303,6 +303,17 @@ text-align: center;
     padding-bottom: 0;
 } 
 
+.new-in__two--section--bkg{
+    max-width: 9999px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../Images/background_new_in_3.png);
+    height: 140px;
+    scroll-margin-top: 140px;
+    margin-top: 60px;
+}
+
 .new-in__two--container{
     max-width: 1300px;
     display: grid;
@@ -457,4 +468,12 @@ text-align: center;
 
 #button__winners{
     display: none;
+}
+
+#slide--text--active{
+    display: none;
+}
+
+#slide--text--hide{
+    display: block;
 }
