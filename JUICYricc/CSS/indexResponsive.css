@@ -1025,13 +1025,17 @@ text-align: center;
   }
 
   @media screen and (max-width: 450px){
+    .new-in__two--section{
+        height: 600px;
+    } 
+
     .slideshow__figure--card{
         margin-right: 55vw;
         margin-left: 12%;
         width: 130px;
       }
       .slide__card--header h1{
-        font-size: 2rem;
+        font-size: 2rem; 
     }
 
       .slide__show--right--head h1{

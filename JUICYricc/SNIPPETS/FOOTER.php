@@ -3,72 +3,100 @@
     <div class="footer__one">
         <div class="footer__container--one">
             <div class="footer__one--item">
-                <h2>Help and Contact</h2>
-                <ul>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Profile</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Chat JUICYricc</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Orders</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Spots</a>
-                    </li>
-                </ul>
+                <div class="footer__item--header" id="test1">
+                    <h2>Help and Contact</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="16" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                        <path fill="#000000" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                    </svg>
+                </div>
+                <div class="footer__item--menu">
+                    <ul>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Profile</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Chat JUICYricc</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Orders</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Spots</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="footer__one--item">
-                <h2>Shop and Help</h2>
-                <ul>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Profile</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Chat JUICYricc</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Orders</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Spots</a>
-                    </li>
-                </ul>
+                <div class="footer__item--header" id="test2">
+                    <h2>Shop and Help</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="16" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                        <path fill="#000000" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                    </svg>
+                </div>
+                <div class="footer__item--menu">
+                    <ul>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Profile</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Chat JUICYricc</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Orders</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Spots</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="footer__one--item">
-                <h2>Support Us</h2>
-                <ul>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Sponsors</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Tips</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Invited friends</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Opowiedz o nas</a>
-                    </li>
-                </ul>
+                <div class="footer__item--header" id="test3">
+                    <h2>Support Us</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="16" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                        <path fill="#000000" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                    </svg>
+                </div>
+                <div class="footer__item--menu">
+                    <ul>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Sponsors</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Tips</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Invited friends</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Opowiedz o nas</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="footer__one--item">
-                <h2>Support Us</h2>
-                <ul>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Sponsors</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Tips</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Invited friends</a>
-                    </li>
-                    <li class="footer__item--content">
-                        <a class="footer__item--link--one" href="#">Opowiedz o nas</a>
-                    </li>
-                </ul>
+                <div class="footer__item--header" id="test4">
+                    <h2>Support Us</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="16" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                        <path fill="#000000" d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                    </svg>
+                </div>
+                <div class="footer__item--menu">
+                    <ul>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Sponsors</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Tips</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Invited friends</a>
+                        </li>
+                        <li class="footer__item--content">
+                            <a class="footer__item--link--one" href="#">Opowiedz o nas</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -162,6 +190,7 @@
 <script src="../JS/trafficSection.js"></script>
 <script src="../JS/responsiveTransform.js"></script>
 <script src="../JS/userIconControll.js"></script>
+<script src="../JS/footerRespBar.js"></script>
 
 </body>
 
