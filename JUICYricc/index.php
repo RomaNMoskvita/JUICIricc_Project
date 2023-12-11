@@ -52,6 +52,8 @@
     </div>
 </div>
 
+
+<!-- New-in First Section on the main Page -->
 <div id="new-in__section--position" class="new-in__section">
 
     <div class="new-in__container">
@@ -125,6 +127,7 @@
 
 </div>
 
+<!-- New-in Second Section on the main Page -->
 <div class="new-in__two--section">
 
     <div class="new-in__two--container">
@@ -210,7 +213,116 @@
 
 <div class="new-in__two--section--bkg"></div>
 
+<!-- Spots Section on the main Page -->
+<sectio class="main__spot--section">
+    <div class="main__spot--container">
+        <div class="main__spot--header">
+            <h1>Discover Treasure Spots</h1>
+            <button class="spot__main--button">Explore</button>
+        </div>
+        <div class="main__spot--content">
+            <div class="spot__left--container">
+                <div class="spot__left--header--container">
+                    <div class="spot__left--header">
+                        <h2>Find Your Favorite Place In Your City</h2>
+                    </div>
+                    <div class="spot__left--bar">
+                        <select class="select__spot-bar" name="cityselect" id="city__select">
+                            <option selected value="1">Cracow</option>
+                            <option value="2">test2</option>
+                            <option value="3">test3</option>
+                            <option value="4">test4</option>
+                        </select>
+                        <select class="select__spot-bar" name="typespotselect" id="spot-type__select">
+                            <option selected value="1">Street</option>
+                            <option value="2">test2</option>
+                            <option value="3">test3</option>
+                            <option value="4">test4</option>
+                        </select>
+                        <select class="select__spot-bar" name="targetselect" id="target__select">
+                            <option selected value="1">Reward</option>
+                            <option value="2">test2</option>
+                            <option value="3">test3</option>
+                            <option value="4">test4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="spot__left--statistic--container">
+                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col1"></span></div>
+                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col2"></span></div>
+                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col3"></span></div>
+                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col4"></span></div>
+                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col5"></span></div>
+                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col6"></span></div>
+                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col7"></span></div>
+                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col8"></span></div>
+                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col9"></span></div>
+                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col10"></span></div>
+                </div>
+                <div class="spot__left--footer--container">
+                    <div class="spot__left--footer">
+                        <h2>Spot Bronowice Statistic</h2>
+                    </div>
+                    <div class="spot__left--statistic--footer">
+                        <div class="flex-wrapper">
+                            <div class="single-chart">
+                                <svg viewBox="0 0 36 36" class="circular-chart orange">
+                                    <path class="circle-bg" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle" stroke-dasharray="30, 100" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <text x="18" y="20.35" class="percentage">30%</text>
+                                </svg>
+                            </div>
 
-</div>
+                            <div class="single-chart">
+                                <svg viewBox="0 0 36 36" class="circular-chart green">
+                                    <path class="circle-bg" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <text x="18" y="20.35" class="percentage">60%</text>
+                                </svg>
+                            </div>
+
+                            <div class="single-chart">
+                                <svg viewBox="0 0 36 36" class="circular-chart blue">
+                                    <path class="circle-bg" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <text x="18" y="20.35" class="percentage">90%</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <button class="spot__left--button">Location</button>
+                    </div>
+                </div>
+            </div>
+            <div class="spot__right--container">
+                <div class="spot__right--header">
+                    <h1>Spot Bronowice</h1>
+                </div>
+                <div class="spot__right--slideshow">
+                    <img src="/Images/Park_Krk.jpg" alt="">
+                </div>
+                <div class="spot__right--review">
+                    <img src="/Images/Chat.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</sectio>
+
+
+
+
 
 <?php require_once("SNIPPETS/FOOTER.php"); ?>

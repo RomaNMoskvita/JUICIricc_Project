@@ -474,3 +474,300 @@ text-align: center;
 #slide--text--hide{
     display: block;
 }
+
+/*New-in two Section*/
+.main__spot--section{
+    max-width: 9999px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #131313;
+    height: 760px;
+    scroll-margin-top: 140px;
+    margin-top: 20px;
+    padding-bottom: 0;
+} 
+
+.main__spot--container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 60px 0 20px 0;
+}
+
+.main__spot--header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    margin: 0 40px 0 40px;
+    padding-bottom: 20px;
+}
+
+.spot__main--button{
+    background-color: #131313;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    height: 50px;
+    width: 140px;
+    color: #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.spot__main--button:hover{
+    color: #131313;
+    background-color: #fff;
+  }
+
+.main__spot--header h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+
+.main__spot--content{
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.spot__left--container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.spot__left--header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.spot__left--bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px ;
+}
+
+
+.spot__left--header h2{
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+/* Spots select navbar section*/
+.select__spot-bar{
+    border: 2px solid #fff;
+    outline: 0;
+    /*
+    appearance: 0;
+    -webkit-appearance: none;
+    */
+    font: inherit;
+    width: 10rem ;
+    margin: 0 40px 0 40px ;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+    background: #131313 ;
+    color: #fff ;
+    font-size: 1.2rem;
+    border-radius: 1rem ;
+    cursor: pointer;
+}
+
+.select__spot-bar option{
+    color: inherit;
+    background-color: #131313 ;
+}
+
+/* Spot Statistic Section*/
+.spot__left--statistic--container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+    padding-bottom: 40px;
+    margin: 20px 0px 0 20px;
+    padding-right: 60px ;
+    padding-left: 40px ;
+}
+
+.statistic__column__container{
+    display: block;
+    height: 200px;
+    width: 30px;
+    rotate: 180deg;
+    background-color: #5d5d5d;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.statistic__column{
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+
+/*Temporary*/
+#stat--col1{
+    height: 130px;
+}
+#stat--col2{
+    height: 30px;
+}
+#stat--col3{
+    height: 80px;
+}
+#stat--col4{
+    height: 50px;
+}
+#stat--col5{
+    height: 160px;
+}
+#stat--col6{
+    height: 120px;
+}
+#stat--col7{
+    height: 190px;
+}
+#stat--col8{
+    height: 20px;
+}
+#stat--col9{
+    height: 90px;
+}
+#stat--col10{
+    height: 20px;
+}
+
+
+
+.statistic__column{
+    display: block;
+}
+
+
+.spot__left--statistic--footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spot__left--footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.spot__left--footer h2{
+    color: #fff;
+}
+
+.spot__left--button{
+    background-color: #131313;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    height: 60px;
+    width: 180px;
+    color: #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-right: 80px;
+}
+
+.spot__left--button:hover{
+    color: #131313;
+    background-color: #fff;
+  }
+
+
+/*Spot Right Section*/
+.spot__right--header{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.spot__right--header h1{
+    color: #fff;
+
+}
+
+.spot__right--slideshow{
+    display: flex;
+    justify-content: center;
+}
+.spot__right--slideshow img{
+    border-radius: 20px;
+}
+
+.spot__right--review{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+/*Temporary statistic  circl*/
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin-left: 40px;
+  }
+  
+  .single-chart {
+    width: 28%;
+    display: flex;
+    justify-content: space-around ;
+  }
+  
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #5d5d5d;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular-chart.orange .circle {
+    stroke: #fff;
+  }
+  
+  .circular-chart.green .circle {
+    stroke: #fff;
+  }
+  
+  .circular-chart.blue .circle {
+    stroke: #fff;
+  }
+  
+  .percentage {
+    fill: #fff;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
+

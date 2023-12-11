@@ -117,6 +117,10 @@
     display: none;
 }
 
+.footer__item--link--one:hover{
+    color: #fff;
+}
+
 @media screen and (max-width: 850px) {
 
     .footer__one{
@@ -203,6 +207,10 @@
         display: none;
     }
 
+    .footer__one--item ul{
+        display: none;
+    }
+
     .footer__item--header{
         display: flex;
         justify-content: space-between;
@@ -213,10 +221,16 @@
 
     .footer__item--header svg{
         display: block;
+        transition-duration: 0.3s;
     }
 
     .show__bar ul{
         display: block;
+        text-align: start;
+    }
+
+    .rotate_svg svg{
+        rotate: 180deg;
     }
 
     

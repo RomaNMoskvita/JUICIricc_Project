@@ -780,6 +780,7 @@ text-align: center;
     display: flex;
     justify-content:space-between;
     align-items: center;
+    justify-content: center;
   }
 
   .point__slideshow--bar--ver{

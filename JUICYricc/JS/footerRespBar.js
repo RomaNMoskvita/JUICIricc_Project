@@ -10,6 +10,7 @@ for (let i = 0; i < actualItems.length; i++) {
       const actualItemsMenu =
         document.getElementsByClassName("footer__item--menu");
       actualItemsMenu[i].classList.toggle("show__bar");
+      actualItems[i].classList.toggle("rotate_svg");
 
       // Log the updated classList
       console.log(this.className);
