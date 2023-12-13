@@ -229,21 +229,21 @@
                     <div class="spot__left--bar">
                         <select class="select__spot-bar" name="cityselect" id="city__select">
                             <option selected value="1">Cracow</option>
-                            <option value="2">test2</option>
-                            <option value="3">test3</option>
-                            <option value="4">test4</option>
+                            <option value="2">Warsaw</option>
+                            <option value="3">Wroclaw</option>
+                            <option value="4">Poznań</option>
+                            <option value="4">Lublin</option>
+                            <option value="4">Łódź</option>
+                            <option value="4">Gdańsk</option>
                         </select>
                         <select class="select__spot-bar" name="typespotselect" id="spot-type__select">
                             <option selected value="1">Street</option>
-                            <option value="2">test2</option>
-                            <option value="3">test3</option>
-                            <option value="4">test4</option>
+                            <option value="2">Park</option>
                         </select>
                         <select class="select__spot-bar" name="targetselect" id="target__select">
-                            <option selected value="1">Reward</option>
-                            <option value="2">test2</option>
-                            <option value="3">test3</option>
-                            <option value="4">test4</option>
+                            <option selected value="1">Opinion</option>
+                            <option value="2">Rate</option>
+                            <option value="3">Event</option>
                         </select>
                     </div>
                 </div>
@@ -266,6 +266,7 @@
                     <div class="spot__left--statistic--footer">
                         <div class="flex-wrapper">
                             <div class="single-chart">
+                                <h3>Quality</h3>
                                 <svg viewBox="0 0 36 36" class="circular-chart orange">
                                     <path class="circle-bg" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
@@ -278,6 +279,7 @@
                             </div>
 
                             <div class="single-chart">
+                                <h3>Level</h3>
                                 <svg viewBox="0 0 36 36" class="circular-chart green">
                                     <path class="circle-bg" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
@@ -290,6 +292,7 @@
                             </div>
 
                             <div class="single-chart">
+                                <h3>Community</h3>
                                 <svg viewBox="0 0 36 36" class="circular-chart blue">
                                     <path class="circle-bg" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
@@ -310,10 +313,182 @@
                     <h1>Spot Bronowice</h1>
                 </div>
                 <div class="spot__right--slideshow">
-                    <img src="/Images/Park_Krk.jpg" alt="">
+                    <div class="spot__slideshow--card">
+                        <img src="/Images/Park_Krk2.jpg" alt="">
+                    </div>
+                    <div class="spot__slideshow--card">
+                        <img src="/Images/Park_Krk1.jpg" alt="">
+                    </div>
+                    <div class="spot__slideshow--card">
+                        <img src="/Images/Park_Krk3.jpg" alt="">
+                    </div>
+                    <div class="spot__slideshow--card">
+                        <img src="/Images/Park_Krk4.jpg" alt="">
+                    </div>
+                    <div class="spot__slideshow--card">
+                        <img src="/Images/Park_Krk5.jpg" alt="">
+                    </div>
+                    <div class="point__slideshow--bar--hor">
+                        <span class="dot__spt" onclick="currentSlideSpot(1)"></span>
+                        <span class="dot__spt" onclick="currentSlideSpot(2)"></span>
+                        <span class="dot__spt" onclick="currentSlideSpot(3)"></span>
+                        <span class="dot__spt" onclick="currentSlideSpot(4)"></span>
+                        <span class="dot__spt" onclick="currentSlideSpot(5)"></span>
+                    </div>
                 </div>
-                <div class="spot__right--review">
-                    <img src="/Images/Chat.png" alt="">
+                <div class="spot__right--review__container">
+                    <div class="spot__right--review">
+                        <div class="client__message--container">
+                            <div class="client__message--icon">
+                                <div class="client__message--img">
+                                    <img src="/Images/user__icon4.png" alt="">
+                                </div>
+                                <h3>RadRoller</h3>
+                            </div>
+                            <div class="client__message">
+                                <p>Hey everyone! Just had an awesome session at the skate
+                                    park today. The ramps are sick, and the atmosphere
+                                    is just perfect. Shoutout to the crew who keeps the
+                                    place in top shape! Can't wait to hit those rails
+                                    again soon.</p>
+                            </div>
+                        </div>
+                        <div class="client__message--container">
+                            <div class="client__message--icon">
+                                <div class="client__message--img">
+                                    <img src="/Images/user__icon2.png" alt="">
+                                </div>
+                                <h3>ConcreteGlider</h3>
+                            </div>
+                            <div class="client__message">
+                                <p>Wow, the skate park has become my second home!
+                                    The new additions to the street course are killer.
+                                    Spent the whole afternoon working on my kickflips
+                                    and meeting some rad skaters. This place rocks!.</p>
+                            </div>
+                        </div>
+                        <div class="client__message--container">
+                            <div class="client__message--icon">
+                                <div class="client__message--img">
+                                    <img src="/Images/user__icon3.png" alt="">
+                                </div>
+                                <h3>ShredMaster5000</h3>
+                            </div>
+                            <div class="client__message">
+                                <p>Big thumbs up to whoever designed the bowl section!
+                                    Seriously epic, feels like I'm carving through a
+                                    concrete wave. Thanks for providing such a sick
+                                    space for the skate community. #SkateLife.</p>
+                            </div>
+                        </div>
+                        <div class="client__message--container">
+                            <div class="client__message--icon">
+                                <div class="client__message--img">
+                                    <img src="/Images/user__icon1.png" alt="">
+                                </div>
+                                <h3>TrickTrailblazer</h3>
+                            </div>
+                            <div class="client__message">
+                                <p>Had a blast teaching my little brother how to
+                                    ride for the first time at the skate park.
+                                    The beginner's area is perfect for newcomers.
+                                    Super grateful for the friendly vibe and patience
+                                    from everyone there!.</p>
+                            </div>
+                        </div>
+                        <div class="client__message--container">
+                            <div class="client__message--icon">
+                                <div class="client__message--img">
+                                    <img src="/Images/user__icon5.png" alt="">
+                                </div>
+                                <h3>GrindGuru</h3>
+                            </div>
+                            <div class="client__message">
+                                <p>Just wanted to give a shoutout to the staff
+                                    for organizing that impromptu skate jam last weekend.
+                                    So much talent on display, and it's awesome seeing
+                                    the local skate scene thriving.
+                                    Let's do it again soon!.</p>
+                            </div>
+                        </div>
+                        <div class="client__message--container">
+                            <div class="client__message--icon">
+                                <div class="client__message--img">
+                                    <img src="/Images/user__icon6.png" alt="">
+                                </div>
+                                <h3>OllieOasis</h3>
+                            </div>
+                            <div class="client__message">
+                                <p>Finally landed my first varial flip after weeks
+                                    of trying! The encouragement from fellow skaters
+                                    at the park is unreal. The sense of community
+                                    here is what makes it stand out. Keep pushing,
+                                    everyone!.</p>
+                            </div>
+                        </div>
+                        <div class="client__message--container">
+                            <div class="client__message--icon">
+                                <div class="client__message--img">
+                                    <img src="/Images/user__icon7.png" alt="">
+                                </div>
+                                <h3>RampRebel</h3>
+                            </div>
+                            <div class="client__message">
+                                <p>Late-night session at the park under the lights
+                                    is a whole different vibe. The ambiance is electric,
+                                    and pulling off tricks with the night sky as the
+                                    backdrop is pure magic. Can't wait for more night
+                                    sessions!.</p>
+                            </div>
+                        </div>
+                        <div class="client__message--container">
+                            <div class="client__message--icon">
+                                <div class="client__message--img">
+                                    <img src="/Images/user__icon8.png" alt="">
+                                </div>
+                                <h3>SkateCanvasCreator</h3>
+                            </div>
+                            <div class="client__message">
+                                <p>Today marked my one-year skate anniversary,
+                                    and I couldn't be happier with the progress.
+                                    The park has been my training ground,
+                                    and I appreciate the positive energy and tips
+                                    from everyone. Here's to many more years of
+                                    shredding!.</p>
+                            </div>
+                        </div>
+                        <div class="client__message--container">
+                            <div class="client__message--icon">
+                                <div class="client__message--img">
+                                    <img src="/Images/user__icon9.png" alt="">
+                                </div>
+                                <h3>ThrashArtist</h3>
+                            </div>
+                            <div class="client__message">
+                                <p>The skate park isn't just a place to skate;
+                                    it's a canvas for creativity.
+                                    Huge thanks to the artists who keep adding vibrant
+                                    graffiti and murals. Every visit feels like
+                                    exploring an ever-changing outdoor
+                                    art gallery. 🎨🛹.</p>
+                            </div>
+                        </div>
+                        <div class="client__message--container">
+                            <div class="client__message--icon">
+                                <div class="client__message--img">
+                                    <img src="/Images/user__icon10.png" alt="">
+                                </div>
+                                <h3>FlipFury</h3>
+                            </div>
+                            <div class="client__message">
+                                <p>Spent the afternoon filming a skate edit with
+                                    friends at the park. The variety of spots
+                                    and features make it a perfect filming location.
+                                    Major props to the crew who maintain this spot.
+                                    Our video is going to be fire 🔥🎥!.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
