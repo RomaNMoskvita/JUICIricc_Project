@@ -14,7 +14,7 @@ html{
   .navbar__container{
     top: 0;
     width: 100%;
-    height: 720px;
+    height: 710px;
     align-self: center;
     position: absolute;
   }
@@ -234,7 +234,7 @@ html{
 
 @media screen and (max-width: 1260px){
   .navbar__container{
-    height: 660px;
+    height: 650px;
   }
 }
 
@@ -246,7 +246,7 @@ html{
     }
 
     .navbar__container{
-      height: 590px;
+      height: 602px;
     }
 
     #searchbar--box{
@@ -260,13 +260,19 @@ html{
 
 @media screen and (max-width: 800px){
     .navbar__container{
-      height: 560px;
+      height: 568px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navbar__container{
+      height: 546px;
     }
 }
 
 @media screen and (max-width: 530px){
     .navbar__container{
-      height: 630px;
+      height: 608px;
     }
 }
 

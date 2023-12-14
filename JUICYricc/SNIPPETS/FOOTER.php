@@ -188,9 +188,12 @@
 
 <script src="../JS/index.js"></script>
 <script src="../JS/trafficSection.js"></script>
-<script src="../JS/responsiveTransform.js"></script>
+<script type="module" src="../JS/responsiveTransform.js"></script>
 <script src="../JS/userIconControll.js"></script>
 <script src="../JS/footerRespBar.js"></script>
+<script type="module" src="../JS/statisticInd.js"></script>
+<script type="module" src="../JS/responsiveTransform.js"></script>
+
 
 </body>
 

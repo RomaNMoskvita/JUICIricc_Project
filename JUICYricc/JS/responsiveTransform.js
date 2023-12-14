@@ -1,3 +1,5 @@
+import { handleChange } from "./statisticInd.js";
+
 //This script exchanges my CSS file for a responsive CSS file
 function updateStylesheet() {
   const styleLinkIndex = document.getElementById("responsive__index--section");
@@ -34,6 +36,10 @@ function updateStylesheet() {
   }, 100);
 }
 
-window.onload = updateStylesheet;
+function onLoad() {
+  updateStylesheet();
+  handleChange();
+}
+
+window.onload = onLoad;
 window.onresize = updateStylesheet;
-window.onload = updateStylesheet;

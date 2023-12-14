@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="../CSS/footer.css" id="responsive__footer--section">
     <link rel="stylesheet" href="../CSS/index.css" id="responsive__index--section">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>

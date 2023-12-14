@@ -528,6 +528,11 @@ text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
+
+    .website__traffic{
+        height: 540px;
+    }
+
     .new-in__section{
         height: 560px;
         margin-top: 3.3rem;
@@ -549,6 +554,11 @@ text-align: center;
 }
 
 @media screen and (max-width: 800px){
+
+    .website__traffic{
+        height: 460px;
+    }
+
     .button__event{
         margin-right: 1rem;
       }
@@ -632,7 +642,7 @@ text-align: center;
 
 @media screen and (max-width: 530px){
     .website__traffic{
-        height: 500px;
+        height: 480px;
     }
 
     .new-in__section{
@@ -642,6 +652,7 @@ text-align: center;
     .new-in__section{
         margin-top: 0rem;
     }
+
 }
 
 @media screen and (max-width: 500px){
@@ -884,7 +895,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     background-color: #131313;
-    height: 760px;
+    height: 800px;
     scroll-margin-top: 140px;
     margin-top: 20px;
     padding-bottom: 0;
@@ -1200,6 +1211,10 @@ text-align: center;
     width: 100%;
 }
 
+.spot__left--footer--container{
+    width: 100%;
+}
+
 
 
 
@@ -1450,9 +1465,6 @@ text-align: center;
         margin-right: 2rem;
     }
 
-    .spot__left--footer--container{
-        width: 100%;
-    }
 
     .spot__left--footer h2{
         font-size: 1.8rem;
@@ -1461,7 +1473,12 @@ text-align: center;
     .main__spot--header h1 {
         font-size: 2rem;
     }
-    
+    .spot__left--header--container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
   }
 
   @media screen and (max-width: 850px){
@@ -1488,11 +1505,47 @@ text-align: center;
     .new-in__two--section{
         height: 800px;
     } 
+
+    .statistic__column__container{
+        height: 10rem;
+        width: 1rem;
+        rotate: 180deg;
+        margin-right: 1.4rem;
+    }
+
+    .spot__left--footer h2{
+        font-size: 1.4rem;
+    }
+
+    .spot__left--header h2{
+        font-size: 1.4rem;
+    }
+
+    .main__spot--header h1 {
+        font-size: 1.6rem;
+    }
+
+    .select__spot-bar{
+        margin: 0 1rem 0 1rem ;
+        font-size: 1rem;
+    }
+
+    .main__spot--section{
+        height: 1320px;
+    } 
+    .main__spot--section{
+        margin-top: 0px;
+    } 
+
   }
 
   @media screen and (max-width: 500px){
     .new-in__two--section{
         height: 720px;
+    } 
+
+    .main__spot--section{
+        height: 1200px;
     } 
   }
 
@@ -1522,5 +1575,27 @@ text-align: center;
         font-size: 1rem;
     }
 
+    .select__spot-bar{
+        margin: 0 0.6rem 0 0.6rem ;
+        font-size: 0.8rem;
+    }
+
+    .statistic__column__container{
+        height: 8rem;
+        width: 0.8rem;
+        rotate: 180deg;
+        margin-right: 1.2rem;
+    }
+
+    .main__spot--section{
+        height: 1140px;
+    } 
+
+
   }
 
+  @media screen and (max-width: 380px) {
+    .main__spot--section{
+        height: 1080px;
+    } 
+  }
