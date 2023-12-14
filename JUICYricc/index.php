@@ -76,8 +76,8 @@
                             <option value="Gdansk">Gdańsk</option>
                         </select>
                         <select class="select__spot-bar" name="typespotselect" id="spot-type__select">
-                            <option selected value="Street">Street</option>
-                            <option value="Park">Park</option>
+                            <option selected value="Park">Street</option>
+                            <option value="Street">Park</option>
                         </select>
                         <select class="select__spot-bar" name="targetselect" id="target__select">
                             <option selected value="Opinion">Opinion</option>
