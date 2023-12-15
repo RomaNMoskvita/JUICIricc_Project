@@ -100,7 +100,7 @@
                 </div>
                 <div class="spot__left--footer--container">
                     <div class="spot__left--footer">
-                        <h2>Spot Bronowice Statistic</h2>
+                        <h2 id="actual--spot">Spot Bronowice Statistic</h2>
                     </div>
                     <div class="spot__left--statistic--footer">
                         <div class="flex-wrapper">

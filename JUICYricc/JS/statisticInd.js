@@ -28,6 +28,8 @@ export function handleChange() {
   statisticChange(cityM, typeM, filtrM);
 }
 
+let SkateParkFill = [];
+
 function statisticChange(cityP, typeP, filtrP) {
   function filterFun(skateParkItem) {
     return skateParkItem.city === cityP && skateParkItem.typeS === typeP;
@@ -43,8 +45,6 @@ function statisticChange(cityP, typeP, filtrP) {
     }
     return SkateParkFill;
   }
-
-  let SkateParkFill = [];
 
   switch (true) {
     case filtrP === "Opinion":
@@ -65,6 +65,28 @@ function statisticChange(cityP, typeP, filtrP) {
       column8.style.height = `${SkateParkFill[7].opinion}`;
       column9.style.height = `${SkateParkFill[8].opinion}`;
       column10.style.height = `${SkateParkFill[9].opinion}`;
+
+      const { maxOpinionSkatePark, maxOpinionIndex } = SkateParkFill.reduce(
+        (acc, current, index) => {
+          const currentOpinion = parseInt(current.opinion);
+          if (currentOpinion > acc.maxOpinion) {
+            return {
+              maxOpinion: currentOpinion,
+              maxOpinionSkatePark: current,
+              maxOpinionIndex: index,
+            };
+          }
+          return acc;
+        },
+        {
+          maxOpinion: -Infinity,
+          maxOpinionSkatePark: null,
+          maxOpinionIndex: -1,
+        }
+      );
+
+      currentColumnSpot(maxOpinionIndex + 1);
+      currentObjSpot(maxOpinionSkatePark);
       break;
     case filtrP === "Rate":
       SkateParkFill = cracowSkatePark
@@ -84,7 +106,29 @@ function statisticChange(cityP, typeP, filtrP) {
       column8.style.height = `${SkateParkFill[7].rate}`;
       column9.style.height = `${SkateParkFill[8].rate}`;
       column10.style.height = `${SkateParkFill[9].rate}`;
+
+      const { maxRateSkatePark, maxRateIndex } = SkateParkFill.reduce(
+        (acc, current, index) => {
+          const currentRate = parseInt(current.rate);
+          if (currentRate > acc.maxRate) {
+            return {
+              maxRate: currentRate,
+              maxRateSkatePark: current,
+              maxRateIndex: index,
+            };
+          }
+          return acc;
+        },
+        {
+          maxRate: -Infinity,
+          maxRateSkatePark: null,
+          maxRateIndex: -1,
+        }
+      );
+      currentColumnSpot(maxRateIndex + 1);
+      currentObjSpot(maxRateSkatePark);
       break;
+
     case filtrP === "Quality":
       SkateParkFill = cracowSkatePark
         .filter(filterFun)
@@ -103,17 +147,35 @@ function statisticChange(cityP, typeP, filtrP) {
       column8.style.height = `${SkateParkFill[7].quality}`;
       column9.style.height = `${SkateParkFill[8].quality}`;
       column10.style.height = `${SkateParkFill[9].quality}`;
+
+      const { maxQualitySkatePark, maxQualityIndex } = SkateParkFill.reduce(
+        (acc, current, index) => {
+          const currentQuality = parseInt(current.quality);
+          if (currentQuality > acc.maxQuality) {
+            return {
+              maxQuality: currentQuality,
+              maxQualitySkatePark: current,
+              maxQualityIndex: index,
+            };
+          }
+          return acc;
+        },
+        {
+          maxQuality: -Infinity,
+          maxQualitySkatePark: null,
+          maxQualityIndex: -1,
+        }
+      );
+
+      currentColumnSpot(maxQualityIndex + 1);
+      currentObjSpot(maxQualitySkatePark);
       break;
   }
 }
 
-let columnIndexSpot = 1;
-currentColumnSpot(columnIndexSpot);
-
 function currentColumnSpot(index) {
   let i;
   let columns = document.getElementsByClassName("statistic__column__container");
-
   for (i = 0; i < columns.length; i++) {
     columns[i].className = columns[i].className.replace(
       " stat__col--active",
@@ -125,8 +187,25 @@ function currentColumnSpot(index) {
 
 const containers = document.querySelectorAll(".statistic__column__container");
 containers.forEach((container) => {
-  container.addEventListener("click", function () {
+  container.addEventListener("click", function (event) {
     const index = this.getAttribute("data-index");
     currentColumnSpot(index);
+
+    //Get index back actual object
+    let actObj;
+    for (let i = 0; i < containers.length; i++) {
+      if (
+        containers[i].className ===
+        "statistic__column__container stat__col--active"
+      ) {
+        actObj = containers[i].getAttribute("data-index") - 1;
+      }
+    }
+
+    currentObjSpot(SkateParkFill[actObj]);
   });
 });
+
+function currentObjSpot(obj) {
+  console.log(obj);
+}
