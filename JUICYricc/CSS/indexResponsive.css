@@ -1017,6 +1017,16 @@ text-align: center;
     border-radius: 16px;
     overflow: hidden;
     margin-right: 1.4rem;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.statistic__column__container span{
+    border-radius: 16px;
+}
+
+.stat__col--active, .statistic__column__container:hover{
+    outline: 4px solid #cadc82;
 }
 
 .statistic__column{
@@ -1091,7 +1101,6 @@ text-align: center;
     color: #fff;
     transition-duration: 0.4s;
     cursor: pointer;
-    margin-right: 80px;
 }
 
 .spot__left--button:hover{

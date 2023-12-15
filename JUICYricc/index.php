@@ -76,8 +76,8 @@
                             <option value="Gdansk">Gdańsk</option>
                         </select>
                         <select class="select__spot-bar" name="typespotselect" id="spot-type__select">
-                            <option selected value="Park">Street</option>
-                            <option value="Street">Park</option>
+                            <option selected value="Street">Street</option>
+                            <option value="Park">Park</option>
                         </select>
                         <select class="select__spot-bar" name="targetselect" id="target__select">
                             <option selected value="Opinion">Opinion</option>
@@ -87,16 +87,16 @@
                     </div>
                 </div>
                 <div class="spot__left--statistic--container">
-                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col1"></span></div>
-                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col2"></span></div>
-                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col3"></span></div>
-                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col4"></span></div>
-                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col5"></span></div>
-                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col6"></span></div>
-                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col7"></span></div>
-                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col8"></span></div>
-                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col9"></span></div>
-                    <div class="statistic__column__container"><span class="statistic__column" id="stat--col10"></span></div>
+                    <div class="statistic__column__container" data-index="1"><span class="statistic__column" id="stat--col1"></span></div>
+                    <div class="statistic__column__container" data-index="2"><span class="statistic__column" id="stat--col2"></span></div>
+                    <div class="statistic__column__container" data-index="3"><span class="statistic__column" id="stat--col3"></span></div>
+                    <div class="statistic__column__container" data-index="4"><span class="statistic__column" id="stat--col4"></span></div>
+                    <div class="statistic__column__container" data-index="5"><span class="statistic__column" id="stat--col5"></span></div>
+                    <div class="statistic__column__container" data-index="6"><span class="statistic__column" id="stat--col6"></span></div>
+                    <div class="statistic__column__container" data-index="7"><span class="statistic__column" id="stat--col7"></span></div>
+                    <div class="statistic__column__container" data-index="8"><span class="statistic__column" id="stat--col8"></span></div>
+                    <div class="statistic__column__container" data-index="9"><span class="statistic__column" id="stat--col9"></span></div>
+                    <div class="statistic__column__container" data-index="10"><span class="statistic__column" id="stat--col10"></span></div>
                 </div>
                 <div class="spot__left--footer--container">
                     <div class="spot__left--footer">

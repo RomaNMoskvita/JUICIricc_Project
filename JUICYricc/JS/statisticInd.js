@@ -1,136 +1,4 @@
-//Simulation dataBase
-const skatePark1 = {
-  name: "Cracow Indoor Skatepark",
-  city: "Cracow",
-  street: "Sliwka 28",
-  typeS: "Park",
-  quality: "80%",
-  level: 45,
-  opinion: "35%",
-  rate: 8,
-  eventS: 8,
-};
-
-const skatePark2 = {
-  name: "Skatepark im. Dominika Wiśniowskiego",
-  city: "Cracow",
-  street: "Nad Potokiem 2",
-  typeS: "Park",
-  quality: "30%",
-  level: 25,
-  opinion: "25%",
-  rate: "40%",
-  eventS: 7,
-};
-
-const skatePark3 = {
-  name: "Skatepark mini Bronowice Gallery",
-  city: "Cracow",
-  street: "Stawowa 61",
-  typeS: "Park",
-  quality: "60%",
-  level: 65,
-  opinion: "65%",
-  rate: "40%",
-  eventS: 5,
-};
-
-const skatePark4 = {
-  name: "Skatepark Swoszowice",
-  city: "Cracow",
-  street: "Kąpielowa",
-  typeS: "Park",
-  quality: "20%",
-  level: 75,
-  opinion: "15%",
-  rate: "70%",
-  eventS: 2,
-};
-
-const skatePark5 = {
-  name: "Vert Ramp",
-  city: "Cracow",
-  street: "Lipska",
-  typeS: "Park",
-  quality: "80%",
-  level: 55,
-  opinion: "95%",
-  rate: "80%",
-  eventS: 15,
-};
-
-const skatePark6 = {
-  name: "Skatepark Wieliczka",
-  city: "Cracow",
-  street: "Józefa Jedynaka 7",
-  typeS: "Park",
-  quality: "50%",
-  level: 70,
-  opinion: "35%",
-  rate: "30%",
-  eventS: 1,
-};
-
-const skatePark7 = {
-  name: "Waveparks",
-  city: "Cracow",
-  street: "Organki 2",
-  typeS: "Park",
-  quality: "90%",
-  level: 35,
-  opinion: "98%",
-  rate: "90%",
-  eventS: 24,
-};
-
-const skatePark8 = {
-  name: "Filip Kubisz Skate For All",
-  city: "Cracow",
-  street: "al. Jana Pawła II",
-  typeS: "Park",
-  quality: "60%",
-  level: 25,
-  opinion: "24%",
-  rate: "40%",
-  eventS: 3,
-};
-
-const skatePark9 = {
-  name: "Skatepark Strzelców",
-  city: "Cracow",
-  street: "Strzelców 5A",
-  typeS: "Park",
-  quality: "20%",
-  level: 75,
-  opinion: "17%",
-  rate: "30%",
-  eventS: 3,
-};
-
-const skatePark10 = {
-  name: "Skatepark Henryk Jordan",
-  city: "Cracow",
-  street: "al. 3 Maja 9",
-  typeS: "Park",
-  quality: "60%",
-  level: 65,
-  opinion: "77%",
-  rate: "70%",
-  eventS: 14,
-};
-
-const cracowSkatePark = [
-  skatePark1,
-  skatePark2,
-  skatePark3,
-  skatePark4,
-  skatePark5,
-  skatePark6,
-  skatePark7,
-  skatePark8,
-  skatePark9,
-  skatePark10,
-];
+import { cracowSkatePark } from "./dataBaseSimul.js";
 
 const column1 = document.getElementById("stat--col1");
 const column2 = document.getElementById("stat--col2");
@@ -162,7 +30,6 @@ export function handleChange() {
 
 function statisticChange(cityP, typeP, filtrP) {
   function filterFun(skateParkItem) {
-    console.log(skateParkItem.city);
     return skateParkItem.city === cityP && skateParkItem.typeS === typeP;
   }
 
@@ -238,6 +105,28 @@ function statisticChange(cityP, typeP, filtrP) {
       column10.style.height = `${SkateParkFill[9].quality}`;
       break;
   }
-
-  console.log(SkateParkFill);
 }
+
+let columnIndexSpot = 1;
+currentColumnSpot(columnIndexSpot);
+
+function currentColumnSpot(index) {
+  let i;
+  let columns = document.getElementsByClassName("statistic__column__container");
+
+  for (i = 0; i < columns.length; i++) {
+    columns[i].className = columns[i].className.replace(
+      " stat__col--active",
+      ""
+    );
+  }
+  columns[index - 1].className += " stat__col--active";
+}
+
+const containers = document.querySelectorAll(".statistic__column__container");
+containers.forEach((container) => {
+  container.addEventListener("click", function () {
+    const index = this.getAttribute("data-index");
+    currentColumnSpot(index);
+  });
+});

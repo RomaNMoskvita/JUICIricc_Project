@@ -191,8 +191,10 @@
 <script type="module" src="../JS/responsiveTransform.js"></script>
 <script src="../JS/userIconControll.js"></script>
 <script src="../JS/footerRespBar.js"></script>
+<script type="module" src="../JS/dataBaseSimul.js"></script>
 <script type="module" src="../JS/statisticInd.js"></script>
 <script type="module" src="../JS/responsiveTransform.js"></script>
+
 
 
 </body>

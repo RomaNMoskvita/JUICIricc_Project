@@ -601,13 +601,21 @@ text-align: center;
     background-color: #5d5d5d;
     border-radius: 16px;
     overflow: hidden;
+    cursor: pointer;
+    padding: 2px;
+}
+.statistic__column__container span{
+    border-radius: 16px;
+}
+
+.stat__col--active, .statistic__column__container:hover{
+    outline: 4px solid #cadc82;
 }
 
 .statistic__column{
     display: block;
     width: 100%;
     background-color: #ffffff;
-    
 }
 
 /*Temporary*/
