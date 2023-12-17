@@ -709,6 +709,7 @@ text-align: center;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 .spot__slideshow--card{

@@ -218,7 +218,6 @@ const locationButton = document.getElementById("button__location");
 const slideshowSpot = document.getElementById("slideshow__contener");
 let slideshowBackup = [];
 locationButton.addEventListener("click", function () {
-  console.log(slideshowBackup);
   locationButton.classList.toggle("spot__left--button--act");
   if (
     locationButton.className === "spot__left--button spot__left--button--act"
@@ -227,11 +226,21 @@ locationButton.addEventListener("click", function () {
     for (let i = slideshowSpot.children.length - 1; i >= 0; i--) {
       slideshowSpot.children[i].remove();
     }
+
+    const locatioEl = document.createElement("iframe");
+    locatioEl.src = SkateParkFill[actualactual()].location; // Set the source URL
+    locatioEl.width = "564"; // Set the width
+    locatioEl.height = "322"; // Set the height
+    locatioEl.allowfullscreen = ""; //
+    locatioEl.loading = "lazy"; //
+    locatioEl.loading = "lazy"; //
+    locatioEl.referrerpolicy = "no-referrer-when-downgrade"; //
+    locatioEl.style.borderRadius = "20px"; //
+
+    slideshowSpot.appendChild(locatioEl);
   } else {
+    slideshowSpot.firstChild.nextElementSibling.remove();
     slideshowBackup.forEach((child) => slideshowSpot.appendChild(child));
-    //for (let i = 0; i < slideshowBackup.length; i++) {
-    //  slideshowSpot.appendChild(slideshowBackup[i]);
-    //}
   }
 
   console.log(SkateParkFill[actualactual()]);

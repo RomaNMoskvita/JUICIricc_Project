@@ -197,6 +197,8 @@ const skatePark10 = {
     "/Images/Park_Krk4.jpg",
     "/Images/Park_Krk5.jpg",
   ],
+  location:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.336898967865!2d19.91573799750471!3d50.06125198386267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165ba1c1e7ff85%3A0x2595d092d7066cc3!2sSkatepark!5e0!3m2!1spl!2spl!4v1702831885584!5m2!1spl!2spl",
 };
 
 const skatePark11 = {
