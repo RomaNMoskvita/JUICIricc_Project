@@ -1118,6 +1118,7 @@ text-align: center;
 .spot__right--header{
     display: flex;
     justify-content: center;
+    text-align: center;
     margin: 20px 0 20px 0;
 }
 

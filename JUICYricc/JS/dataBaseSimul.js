@@ -9,18 +9,34 @@ const skatePark1 = {
   opinion: "35%",
   rate: "80%",
   eventS: 8,
+  community: 13,
+  srcimg: [
+    "/Images/Park_Krk_Indoor_1.jpg",
+    "/Images/Park_Krk_Indoor_2.jpg",
+    "/Images/Park_Krk_Indoor_3.jpg",
+    "/Images/Park_Krk_Indoor_4.jpg",
+    "/Images/Park_Krk_Indoor_5.jpg",
+  ],
 };
 
 const skatePark2 = {
-  name: "Skatepark im. Dominika Wiśniowskiego",
+  name: "Forum Skate Pool",
   city: "Cracow",
-  street: "Nad Potokiem 2",
+  street: "Marii Konopnickiej 28",
   typeS: "Park",
   quality: "30%",
   level: 25,
   opinion: "25%",
   rate: "40%",
   eventS: 7,
+  community: 45,
+  srcimg: [
+    "/Images/Park_Krk_Forum_5.jpg",
+    "/Images/Park_Krk_Forum_1.jpg",
+    "/Images/Park_Krk_Forum_2.jpg",
+    "/Images/Park_Krk_Forum_3.jpg",
+    "/Images/Park_Krk_Forum_4.jpg",
+  ],
 };
 
 const skatePark3 = {
@@ -33,6 +49,14 @@ const skatePark3 = {
   opinion: "65%",
   rate: "40%",
   eventS: 5,
+  community: 22,
+  srcimg: [
+    "/Images/Park_Krk_Bronowice_3.jpg",
+    "/Images/Park_Krk_Bronowice_1.jpg",
+    "/Images/Park_Krk_Bronowice_2.jpg",
+    "/Images/Park_Krk_Bronowice_4.jpg",
+    "/Images/Park_Krk_Bronowice_5.jpg",
+  ],
 };
 
 const skatePark4 = {
@@ -45,6 +69,14 @@ const skatePark4 = {
   opinion: "15%",
   rate: "70%",
   eventS: 2,
+  community: 48,
+  srcimg: [
+    "/Images/Park_Krk_Swoszowice_4.jpg",
+    "/Images/Park_Krk_Swoszowice_2.jpg",
+    "/Images/Park_Krk_Swoszowice_3.jpg",
+    "/Images/Park_Krk_Swoszowice_1.jpg",
+    "/Images/Park_Krk_Swoszowice_5.jpg",
+  ],
 };
 
 const skatePark5 = {
@@ -57,54 +89,94 @@ const skatePark5 = {
   opinion: "95%",
   rate: "80%",
   eventS: 15,
+  community: 72,
+  srcimg: [
+    "/Images/Park_Krk_Vert_5.jpg",
+    "/Images/Park_Krk_Vert_2.jpg",
+    "/Images/Park_Krk_Vert_3.jpg",
+    "/Images/Park_Krk_Vert_4.jpg",
+    "/Images/Park_Krk_Vert_1.jpg",
+  ],
 };
 
 const skatePark6 = {
-  name: "Skatepark Wieliczka",
+  name: "Skatepark Mistrzejowice",
   city: "Cracow",
-  street: "Józefa Jedynaka 7",
+  street: "ul. Wawelska",
   typeS: "Park",
   quality: "50%",
   level: 70,
   opinion: "35%",
   rate: "30%",
   eventS: 1,
+  community: 28,
+  srcimg: [
+    "/Images/Park_Krk_Mistrzejowice_1.jpg",
+    "/Images/Park_Krk_Mistrzejowice_2.jpg",
+    "/Images/Park_Krk_Mistrzejowice_3.jpg",
+    "/Images/Park_Krk_Mistrzejowice_4.jpg",
+    "/Images/Park_Krk_Mistrzejowice_5.jpg",
+  ],
 };
 
 const skatePark7 = {
-  name: "Waveparks",
+  name: "Skatepark nad Trasą Łagiewnicką",
   city: "Cracow",
-  street: "Organki 2",
+  street: "Zbrojarzy 48",
   typeS: "Park",
   quality: "90%",
   level: 35,
   opinion: "98%",
   rate: "90%",
   eventS: 24,
+  community: 52,
+  srcimg: [
+    "/Images/Park_Krk_Łagiewnicka_4.jpg",
+    "/Images/Park_Krk_Łagiewnicka_2.jpg",
+    "/Images/Park_Krk_Łagiewnicka_3.jpg",
+    "/Images/Park_Krk_Łagiewnicka_1.jpg",
+    "/Images/Park_Krk_Łagiewnicka_5.jpg",
+  ],
 };
 
 const skatePark8 = {
-  name: "Filip Kubisz Skate For All",
+  name: "Skatepark Widok",
   city: "Cracow",
-  street: "al. Jana Pawła II",
+  street: "os. Widok, ul. Zarzecze",
   typeS: "Park",
   quality: "60%",
   level: 25,
   opinion: "24%",
   rate: "40%",
   eventS: 3,
+  community: 33,
+  srcimg: [
+    "/Images/Park_Krk_Widok_1.jpg",
+    "/Images/Park_Krk_Widok_2.jpg",
+    "/Images/Park_Krk_Widok_3.jpg",
+    "/Images/Park_Krk_Widok_4.jpg",
+    "/Images/Park_Krk_Widok_5.jpg",
+  ],
 };
 
 const skatePark9 = {
-  name: "Skatepark Strzelców",
+  name: "Skatepark Lotników",
   city: "Cracow",
-  street: "Strzelców 5A",
+  street: "al. Jana Pawła II",
   typeS: "Park",
   quality: "20%",
   level: 75,
   opinion: "17%",
   rate: "30%",
   eventS: 3,
+  community: 85,
+  srcimg: [
+    "/Images/Park_Krk_Lotnikow_1.jpg",
+    "/Images/Park_Krk_Lotnikow_2.jpg",
+    "/Images/Park_Krk_Lotnikow_3.jpg",
+    "/Images/Park_Krk_Lotnikow_4.jpg",
+    "/Images/Park_Krk_Lotnikow_5.jpg",
+  ],
 };
 
 const skatePark10 = {
@@ -117,6 +189,14 @@ const skatePark10 = {
   opinion: "77%",
   rate: "70%",
   eventS: 14,
+  community: 56,
+  srcimg: [
+    "/Images/Park_Krk2.jpg",
+    "/Images/Park_Krk1.jpg",
+    "/Images/Park_Krk3.jpg",
+    "/Images/Park_Krk4.jpg",
+    "/Images/Park_Krk5.jpg",
+  ],
 };
 
 const skatePark11 = {
@@ -129,6 +209,7 @@ const skatePark11 = {
   opinion: "82%",
   rate: "65%",
   eventS: 12,
+  community: 89,
 };
 
 const skatePark12 = {
@@ -141,6 +222,7 @@ const skatePark12 = {
   opinion: "90%",
   rate: "75%",
   eventS: 18,
+  community: 23,
 };
 
 const skatePark13 = {
@@ -153,6 +235,7 @@ const skatePark13 = {
   opinion: "75%",
   rate: "60%",
   eventS: 10,
+  community: 8,
 };
 
 const skatePark14 = {
@@ -165,6 +248,7 @@ const skatePark14 = {
   opinion: "88%",
   rate: "70%",
   eventS: 15,
+  community: 38,
 };
 
 const skatePark15 = {
@@ -177,6 +261,7 @@ const skatePark15 = {
   opinion: "95%",
   rate: "85%",
   eventS: 20,
+  community: 76,
 };
 
 const skatePark16 = {
@@ -189,6 +274,7 @@ const skatePark16 = {
   opinion: "80%",
   rate: "75%",
   eventS: 16,
+  community: 51,
 };
 
 const skatePark17 = {
@@ -201,6 +287,7 @@ const skatePark17 = {
   opinion: "78%",
   rate: "70%",
   eventS: 14,
+  community: 27,
 };
 
 const skatePark18 = {
@@ -213,6 +300,7 @@ const skatePark18 = {
   opinion: "70%",
   rate: "65%",
   eventS: 12,
+  community: 58,
 };
 
 const skatePark19 = {
@@ -225,6 +313,7 @@ const skatePark19 = {
   opinion: "92%",
   rate: "80%",
   eventS: 18,
+  community: 98,
 };
 
 const skatePark20 = {
@@ -237,6 +326,7 @@ const skatePark20 = {
   opinion: "98%",
   rate: "90%",
   eventS: 22,
+  community: 65,
 };
 
 const skatePark21 = {
@@ -249,6 +339,7 @@ const skatePark21 = {
   opinion: "82%",
   rate: "65%",
   eventS: 12,
+  community: 43,
 };
 
 const skatePark22 = {
@@ -261,6 +352,7 @@ const skatePark22 = {
   opinion: "78%",
   rate: "70%",
   eventS: 14,
+  community: 82,
 };
 
 const skatePark23 = {
@@ -273,6 +365,7 @@ const skatePark23 = {
   opinion: "75%",
   rate: "60%",
   eventS: 10,
+  community: 5,
 };
 
 const skatePark24 = {
@@ -285,6 +378,7 @@ const skatePark24 = {
   opinion: "88%",
   rate: "75%",
   eventS: 16,
+  community: 10,
 };
 
 const skatePark25 = {
@@ -297,6 +391,7 @@ const skatePark25 = {
   opinion: "80%",
   rate: "70%",
   eventS: 15,
+  community: 19,
 };
 
 const skatePark26 = {
@@ -309,6 +404,7 @@ const skatePark26 = {
   opinion: "65%",
   rate: "55%",
   eventS: 12,
+  community: 67,
 };
 
 const skatePark27 = {
@@ -321,6 +417,7 @@ const skatePark27 = {
   opinion: "72%",
   rate: "65%",
   eventS: 14,
+  community: 88,
 };
 
 const skatePark28 = {
@@ -333,6 +430,7 @@ const skatePark28 = {
   opinion: "85%",
   rate: "78%",
   eventS: 18,
+  community: 36,
 };
 
 const skatePark29 = {
@@ -345,6 +443,7 @@ const skatePark29 = {
   opinion: "68%",
   rate: "60%",
   eventS: 16,
+  community: 68,
 };
 
 const skatePark30 = {
@@ -357,6 +456,7 @@ const skatePark30 = {
   opinion: "90%",
   rate: "80%",
   eventS: 20,
+  community: 38,
 };
 
 export const cracowSkatePark = [

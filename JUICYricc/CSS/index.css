@@ -687,20 +687,21 @@ text-align: center;
     margin-right: 80px;
 }
 
-.spot__left--button:hover{
+.spot__left--button--act, .spot__left--button:hover{
     color: #131313;
     background-color: #fff;
   }
-
 
 /*Spot Right Section*/
 .spot__right--header{
     display: flex;
     justify-content: center;
+    text-align: center;
     margin: 20px 0 20px 0;
 }
 .spot__right--header h1{
     color: #fff;
+    text-align: center;
 }
 
 .spot__right--slideshow{

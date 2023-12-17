@@ -76,8 +76,8 @@
                             <option value="Gdansk">Gdańsk</option>
                         </select>
                         <select class="select__spot-bar" name="typespotselect" id="spot-type__select">
-                            <option selected value="Street">Street</option>
-                            <option value="Park">Park</option>
+                            <option selected value="Park">Park</option>
+                            <option value="Street">Street</option>
                         </select>
                         <select class="select__spot-bar" name="targetselect" id="target__select">
                             <option selected value="Opinion">Opinion</option>
@@ -100,17 +100,17 @@
                 </div>
                 <div class="spot__left--footer--container">
                     <div class="spot__left--footer">
-                        <h2 id="actual--spot">Spot Bronowice Statistic</h2>
+                        <h2 id="actual__header--spot">Skate Park Statistic</h2>
                     </div>
                     <div class="spot__left--statistic--footer">
                         <div class="flex-wrapper">
                             <div class="single-chart">
-                                <h3>Quality</h3>
+                                <h3>Level</h3>
                                 <svg viewBox="0 0 36 36" class="circular-chart orange">
                                     <path class="circle-bg" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-                                    <path class="circle" stroke-dasharray="30, 100" d="M18 2.0845
+                                    <path id="circle__level" class="circle" stroke-dasharray="0, 100" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
                                     <text x="18" y="20.35" class="percentage">30%</text>
@@ -118,12 +118,12 @@
                             </div>
 
                             <div class="single-chart">
-                                <h3>Level</h3>
+                                <h3>Community</h3>
                                 <svg viewBox="0 0 36 36" class="circular-chart green">
                                     <path class="circle-bg" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-                                    <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845
+                                    <path id="circle__community" class="circle" stroke-dasharray="0, 100" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
                                     <text x="18" y="20.35" class="percentage">60%</text>
@@ -131,27 +131,27 @@
                             </div>
 
                             <div class="single-chart">
-                                <h3>Community</h3>
+                                <h3>Event</h3>
                                 <svg viewBox="0 0 36 36" class="circular-chart blue">
                                     <path class="circle-bg" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
-                                    <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845
+                                    <path id="circle__event" class="circle" stroke-dasharray="0, 100" d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" />
                                     <text x="18" y="20.35" class="percentage">90%</text>
                                 </svg>
                             </div>
                         </div>
-                        <button class="spot__left--button">Location</button>
+                        <button class="spot__left--button" id="button__location">Location</button>
                     </div>
                 </div>
             </div>
             <div class="spot__right--container">
                 <div class="spot__right--header">
-                    <h1>Spot Bronowice</h1>
+                    <h1 id="spot__header_right"></h1>
                 </div>
-                <div class="spot__right--slideshow">
+                <div class="spot__right--slideshow" id="slideshow__contener">
                     <div class="spot__slideshow--card">
                         <img src="/Images/Park_Krk2.jpg" alt="">
                     </div>
@@ -168,11 +168,11 @@
                         <img src="/Images/Park_Krk5.jpg" alt="">
                     </div>
                     <div class="point__slideshow--bar--hor">
-                        <span class="dot__spt" onclick="currentSlideSpot(1)"></span>
-                        <span class="dot__spt" onclick="currentSlideSpot(2)"></span>
-                        <span class="dot__spt" onclick="currentSlideSpot(3)"></span>
-                        <span class="dot__spt" onclick="currentSlideSpot(4)"></span>
-                        <span class="dot__spt" onclick="currentSlideSpot(5)"></span>
+                        <span class="dot__spt" data-index="1"></span>
+                        <span class="dot__spt" data-index="2"></span>
+                        <span class="dot__spt" data-index="3"></span>
+                        <span class="dot__spt" data-index="4"></span>
+                        <span class="dot__spt" data-index="5"></span>
                     </div>
                 </div>
                 <div class="spot__right--review__container">

@@ -186,7 +186,7 @@
 
 <!-- JS Scripts Section -->
 
-<script src="../JS/index.js"></script>
+<script type="module" src="../JS/index.js"></script>
 <script src="../JS/trafficSection.js"></script>
 <script type="module" src="../JS/responsiveTransform.js"></script>
 <script src="../JS/userIconControll.js"></script>

@@ -77,7 +77,15 @@ function showSlidesFig(m) {
 let slideIndexSpot = 1;
 showSlidesSpot(slideIndexSpot);
 
-function currentSlideSpot(n) {
+const containers = document.querySelectorAll(".dot__spt");
+containers.forEach((container) => {
+  container.addEventListener("click", function (event) {
+    const index = this.getAttribute("data-index");
+    currentSlideSpot(index);
+  });
+});
+
+export function currentSlideSpot(n) {
   showSlidesSpot((slideIndexSpot = n));
 }
 

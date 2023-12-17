@@ -1,4 +1,5 @@
 import { cracowSkatePark } from "./dataBaseSimul.js";
+import { currentSlideSpot } from "./index.js";
 
 const column1 = document.getElementById("stat--col1");
 const column2 = document.getElementById("stat--col2");
@@ -173,6 +174,7 @@ function statisticChange(cityP, typeP, filtrP) {
   }
 }
 
+//Target column
 function currentColumnSpot(index) {
   let i;
   let columns = document.getElementsByClassName("statistic__column__container");
@@ -185,27 +187,89 @@ function currentColumnSpot(index) {
   columns[index - 1].className += " stat__col--active";
 }
 
+//Code for searching the actual object
+function actColumn(event) {
+  const index = this.getAttribute("data-index");
+  currentColumnSpot(index);
+  currentObjSpot(SkateParkFill[actualactual()]);
+}
+
+//Get back index actual object
+function actualactual() {
+  let actObj;
+  for (let i = 0; i < containers.length; i++) {
+    if (
+      containers[i].className ===
+      "statistic__column__container stat__col--active"
+    ) {
+      actObj = containers[i].getAttribute("data-index") - 1;
+      return actObj;
+    }
+  }
+}
+
 const containers = document.querySelectorAll(".statistic__column__container");
 containers.forEach((container) => {
-  container.addEventListener("click", function (event) {
-    const index = this.getAttribute("data-index");
-    currentColumnSpot(index);
-
-    //Get index back actual object
-    let actObj;
-    for (let i = 0; i < containers.length; i++) {
-      if (
-        containers[i].className ===
-        "statistic__column__container stat__col--active"
-      ) {
-        actObj = containers[i].getAttribute("data-index") - 1;
-      }
-    }
-
-    currentObjSpot(SkateParkFill[actObj]);
-  });
+  container.addEventListener("click", actColumn);
 });
 
+//Shows Location
+const locationButton = document.getElementById("button__location");
+const slideshowSpot = document.getElementById("slideshow__contener");
+let slideshowBackup = [];
+locationButton.addEventListener("click", function () {
+  console.log(slideshowBackup);
+  locationButton.classList.toggle("spot__left--button--act");
+  if (
+    locationButton.className === "spot__left--button spot__left--button--act"
+  ) {
+    slideshowBackup = Array.from(slideshowSpot.children);
+    for (let i = slideshowSpot.children.length - 1; i >= 0; i--) {
+      slideshowSpot.children[i].remove();
+    }
+  } else {
+    slideshowBackup.forEach((child) => slideshowSpot.appendChild(child));
+    //for (let i = 0; i < slideshowBackup.length; i++) {
+    //  slideshowSpot.appendChild(slideshowBackup[i]);
+    //}
+  }
+
+  console.log(SkateParkFill[actualactual()]);
+});
+
+//Display information about obj on page
 function currentObjSpot(obj) {
   console.log(obj);
+
+  //Set the first slide when obj changing
+  currentSlideSpot(1);
+
+  //Set the statistic header obj
+  const spotHeaderStat = document.getElementById("actual__header--spot");
+  spotHeaderStat.textContent = obj.name + " Statistic";
+
+  //Set the spot header obj
+  const spotHeader = document.getElementById("spot__header_right");
+  spotHeader.textContent = obj.name;
+
+  //Set the value statistic circle 1
+  const circleLevel = document.getElementById("circle__level");
+  circleLevel.setAttribute("stroke-dasharray", `${obj.level}, 100`);
+  circleLevel.nextSibling.nextSibling.textContent = `${obj.level}`;
+
+  //Set the value statistic circle 2
+  const circleCommunity = document.getElementById("circle__community");
+  circleCommunity.setAttribute("stroke-dasharray", `${obj.community}, 100`);
+  circleCommunity.nextSibling.nextSibling.textContent = `${obj.community}`;
+
+  //Set the value statistic circle 3
+  const circleEvent = document.getElementById("circle__event");
+  circleEvent.setAttribute("stroke-dasharray", `${obj.eventS}, 100`);
+  circleEvent.nextSibling.nextSibling.textContent = `${obj.eventS}`;
+
+  //Set the img for spots list
+  const spotImg = document.getElementsByClassName("spot__slideshow--card");
+  for (let i = 0; i < spotImg.length; i++) {
+    spotImg[i].firstChild.nextSibling.setAttribute("src", `${obj.srcimg[i]}`);
+  }
 }
