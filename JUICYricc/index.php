@@ -365,11 +365,11 @@
 
             </div>
             <div class="point__slideshow--bar--hor">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+                <span class="dot" data-index="5"></span>
             </div>
             <div class="slide__text">
                 <p>PROJEKT SKATEPARK - DĄBROWA GÓRNICZA</p>
@@ -385,11 +385,11 @@
             </div>
             <div class="slide__show--right">
                 <div class="point__slideshow--bar--ver">
-                    <span class="dot__figure" onclick="currentSlideFig(1)"></span>
-                    <span class="dot__figure" onclick="currentSlideFig(2)"></span>
-                    <span class="dot__figure" onclick="currentSlideFig(3)"></span>
-                    <span class="dot__figure" onclick="currentSlideFig(4)"></span>
-                    <span class="dot__figure" onclick="currentSlideFig(5)"></span>
+                    <span class="dot__figure" onclick="currentSlideFig(1)" data-index="1"></span>
+                    <span class="dot__figure" onclick="currentSlideFig(2)" data-index="2"></span>
+                    <span class="dot__figure" onclick="currentSlideFig(3)" data-index="3"></span>
+                    <span class="dot__figure" onclick="currentSlideFig(4)" data-index="4"></span>
+                    <span class="dot__figure" onclick="currentSlideFig(5)" data-index="5"></span>
                 </div>
                 <div class="new-in__slideshow--figure">
                     <div class="slideshow__figure--card">

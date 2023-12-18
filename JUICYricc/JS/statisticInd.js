@@ -236,19 +236,38 @@ locationButton.addEventListener("click", function () {
     locatioEl.loading = "lazy"; //
     locatioEl.referrerpolicy = "no-referrer-when-downgrade"; //
     locatioEl.style.borderRadius = "20px"; //
+    locatioEl.style.width = "100%"; //
+    locatioEl.style.maxHeight = "308px"; //
 
     slideshowSpot.appendChild(locatioEl);
   } else {
     slideshowSpot.firstChild.nextElementSibling.remove();
     slideshowBackup.forEach((child) => slideshowSpot.appendChild(child));
   }
-
-  console.log(SkateParkFill[actualactual()]);
 });
+
+// Delete map from page when click on statistic column
+const slideshowBackupCol = Array.from(slideshowSpot.children);
 
 //Display information about obj on page
 function currentObjSpot(obj) {
-  console.log(obj);
+  //Delete map element when click on another column spot
+  function columnControlMap() {
+    if (
+      slideshowSpot.firstChild.nextElementSibling instanceof HTMLIFrameElement
+    ) {
+      slideshowSpot.firstChild.nextElementSibling.remove();
+      slideshowBackupCol.forEach((child) => slideshowSpot.appendChild(child));
+      locationButton.classList.toggle("spot__left--button--act");
+    }
+  }
+  columnControlMap();
+
+  //Set the img for spots list
+  const spotImg = document.getElementsByClassName("spot__slideshow--card");
+  for (let i = 0; i < spotImg.length; i++) {
+    spotImg[i].firstChild.nextSibling.setAttribute("src", `${obj.srcimg[i]}`);
+  }
 
   //Set the first slide when obj changing
   currentSlideSpot(1);
@@ -275,10 +294,4 @@ function currentObjSpot(obj) {
   const circleEvent = document.getElementById("circle__event");
   circleEvent.setAttribute("stroke-dasharray", `${obj.eventS}, 100`);
   circleEvent.nextSibling.nextSibling.textContent = `${obj.eventS}`;
-
-  //Set the img for spots list
-  const spotImg = document.getElementsByClassName("spot__slideshow--card");
-  for (let i = 0; i < spotImg.length; i++) {
-    spotImg[i].firstChild.nextSibling.setAttribute("src", `${obj.srcimg[i]}`);
-  }
 }

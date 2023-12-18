@@ -3,9 +3,13 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-function currentSlide(n) {
-  showSlides((slideIndex = n));
-}
+const dotContener = document.querySelectorAll(".dot");
+dotContener.forEach((container) => {
+  container.addEventListener("click", function (event) {
+    const index = this.getAttribute("data-index");
+    showSlides((slideIndex = index));
+  });
+});
 
 function showSlides(n) {
   let i;
@@ -31,12 +35,16 @@ function showSlides(n) {
 /*Slideshow Script Section */
 
 let slideIndexFig = 1;
-let temp = 1;
+let cntrlImg = 1;
 showSlidesFig(slideIndexFig);
 
-function currentSlideFig(m) {
-  showSlidesFig((slideIndexFig = m));
-}
+const dotFigContener = document.querySelectorAll(".dot__figure");
+dotFigContener.forEach((container) => {
+  container.addEventListener("click", function (event) {
+    const index = this.getAttribute("data-index");
+    showSlidesFig((slideIndexFig = index));
+  });
+});
 
 function showSlidesFig(m) {
   let control = false;
@@ -44,13 +52,13 @@ function showSlidesFig(m) {
   let slidesFig = document.getElementsByClassName("slideshow__figure--card");
   let dotsFig = document.getElementsByClassName("dot__figure");
 
-  // Control variable temp
-  if (m != temp) {
+  // Control variable cntrlImg
+  if (m != cntrlImg) {
     control = true;
   } else {
     control = false;
   }
-  temp = m;
+  cntrlImg = m;
   console.log(control);
   console.log(m);
 

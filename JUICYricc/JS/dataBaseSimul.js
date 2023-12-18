@@ -17,6 +17,8 @@ const skatePark1 = {
     "/Images/Park_Krk_Indoor_4.jpg",
     "/Images/Park_Krk_Indoor_5.jpg",
   ],
+  location:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.6075190086985!2d20.017428076035756!3d50.05618321567415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716451e17ac3923%3A0x8db273b560cdda89!2sStreetpark%20-%20Cracow%20Indoor%20Skatepark!5e0!3m2!1suk!2spl!4v1702894687729!5m2!1suk!2spl",
 };
 
 const skatePark2 = {
@@ -37,6 +39,8 @@ const skatePark2 = {
     "/Images/Park_Krk_Forum_3.jpg",
     "/Images/Park_Krk_Forum_4.jpg",
   ],
+  location:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.2216984657884!2d19.934083876035043!3d50.04467811649795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b67b5750643%3A0x46b19a3b4b343d5e!2sForum%20Skate%20Pool!5e0!3m2!1suk!2spl!4v1702894637066!5m2!1suk!2spl",
 };
 
 const skatePark3 = {
@@ -57,6 +61,8 @@ const skatePark3 = {
     "/Images/Park_Krk_Bronowice_4.jpg",
     "/Images/Park_Krk_Bronowice_5.jpg",
   ],
+  location:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.6788538450014!2d19.89728817603803!3d50.092299313087466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b5483b7e58f%3A0xc3c0c3295ac6570a!2sSkatepark%20mini!5e0!3m2!1suk!2spl!4v1702894584497!5m2!1suk!2spl",
 };
 
 const skatePark4 = {
@@ -77,6 +83,8 @@ const skatePark4 = {
     "/Images/Park_Krk_Swoszowice_1.jpg",
     "/Images/Park_Krk_Swoszowice_5.jpg",
   ],
+  location:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.842192472796!2d19.926159276031985!3d49.995568020012584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165d30b862670d%3A0xd7f97676427fe25b!2sSkatepark%20Swoszowice!5e0!3m2!1spl!2spl!4v1702845298697!5m2!1spl!2spl",
 };
 
 const skatePark5 = {
@@ -97,6 +105,8 @@ const skatePark5 = {
     "/Images/Park_Krk_Vert_4.jpg",
     "/Images/Park_Krk_Vert_1.jpg",
   ],
+  location:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.2355929268056!2d19.999904276035025!3d50.04441781651658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471644bf81132219%3A0xf5de49ae9244e2c7!2sVert%20Ramp!5e0!3m2!1suk!2spl!4v1702894737745!5m2!1suk!2spl",
 };
 
 const skatePark6 = {
@@ -117,6 +127,8 @@ const skatePark6 = {
     "/Images/Park_Krk_Mistrzejowice_4.jpg",
     "/Images/Park_Krk_Mistrzejowice_5.jpg",
   ],
+  location:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.5231859320916!2d20.003673876038206!3d50.09521351287875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165ab24e5ba907%3A0xaa7f58ea3244612a!2sSkatepark!5e0!3m2!1suk!2spl!4v1702894777704!5m2!1suk!2spl",
 };
 
 const skatePark7 = {
@@ -137,6 +149,8 @@ const skatePark7 = {
     "/Images/Park_Krk_Łagiewnicka_1.jpg",
     "/Images/Park_Krk_Łagiewnicka_5.jpg",
   ],
+  location:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.4313432381414!2d19.92400207603365!3d50.02201281812033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165d4f07688825%3A0xf18093f34a38f3af!2sSkatepark!5e0!3m2!1suk!2spl!4v1702894808181!5m2!1suk!2spl",
 };
 
 const skatePark8 = {
@@ -157,6 +171,8 @@ const skatePark8 = {
     "/Images/Park_Krk_Widok_4.jpg",
     "/Images/Park_Krk_Widok_5.jpg",
   ],
+  location:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.5151603606837!2d19.883051876037094!3d50.076641014209194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165ba99ae218c9%3A0x814f0ff83941a5d4!2sSkatepark%20betonowy%20os.%20Widok!5e0!3m2!1suk!2spl!4v1702894864355!5m2!1suk!2spl",
 };
 
 const skatePark9 = {
@@ -177,6 +193,8 @@ const skatePark9 = {
     "/Images/Park_Krk_Lotnikow_4.jpg",
     "/Images/Park_Krk_Lotnikow_5.jpg",
   ],
+  location:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.7068745604997!2d19.985844476036807!3d50.07305101446625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716455723a63f6f%3A0x36177d6e263220a6!2sSkatepark%20Park%20Lotnik%C3%B3w!5e0!3m2!1suk!2spl!4v1702894902790!5m2!1suk!2spl",
 };
 
 const skatePark10 = {
