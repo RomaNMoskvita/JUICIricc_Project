@@ -44,7 +44,6 @@
 
 
   .navbar__logo--container{
-    background-color: #131313;
     height: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -86,7 +85,7 @@
     cursor: pointer;
   }
 
-  .button__light--toggle:hover{
+  .button__light--active, .button__light--toggle:hover{
     color: #131313;
     background-color: #fff;
   }

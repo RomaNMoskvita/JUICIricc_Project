@@ -24,7 +24,7 @@
                             <span class="bar"></span>
                             <span class="bar"></span>
                         </div>
-                        <button class="button__light--toggle">LightMood</button>
+                        <button class="button__light--toggle" id="button__light">LightMood</button>
 
                     </div>
                     <div class="navbar__logo">

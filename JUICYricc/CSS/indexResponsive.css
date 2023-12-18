@@ -1103,7 +1103,7 @@ text-align: center;
     cursor: pointer;
 }
 
-.spot__left--button:hover{
+.spot__left--button--act, .spot__left--button:hover{
     color: #131313;
     background-color: #fff;
   }
@@ -1113,6 +1113,10 @@ text-align: center;
 .spot__right--container{
     margin-right: 20px ;
     margin-left: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .spot__right--header{
@@ -1131,6 +1135,9 @@ text-align: center;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+    width: 100%;
+    max-width: 564px;
 }
 
 .spot__slideshow--card{

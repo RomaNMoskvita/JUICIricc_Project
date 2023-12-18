@@ -385,11 +385,11 @@
             </div>
             <div class="slide__show--right">
                 <div class="point__slideshow--bar--ver">
-                    <span class="dot__figure" onclick="currentSlideFig(1)" data-index="1"></span>
-                    <span class="dot__figure" onclick="currentSlideFig(2)" data-index="2"></span>
-                    <span class="dot__figure" onclick="currentSlideFig(3)" data-index="3"></span>
-                    <span class="dot__figure" onclick="currentSlideFig(4)" data-index="4"></span>
-                    <span class="dot__figure" onclick="currentSlideFig(5)" data-index="5"></span>
+                    <span class="dot__figure" data-index="1"></span>
+                    <span class="dot__figure" data-index="2"></span>
+                    <span class="dot__figure" data-index="3"></span>
+                    <span class="dot__figure" data-index="4"></span>
+                    <span class="dot__figure" data-index="5"></span>
                 </div>
                 <div class="new-in__slideshow--figure">
                     <div class="slideshow__figure--card">

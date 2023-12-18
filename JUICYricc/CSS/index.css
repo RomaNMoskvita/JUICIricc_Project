@@ -712,6 +712,10 @@ text-align: center;
     overflow: hidden;
 }
 
+.spot__right--slideshow iframe{
+    margin-bottom: 30px;
+}
+
 .spot__slideshow--card{
     display: none;
 }

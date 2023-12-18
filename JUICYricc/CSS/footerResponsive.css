@@ -24,6 +24,7 @@
     display: flex;
     align-items: start;
     flex-direction: column;
+    
 }
 
 .footer__item--content{

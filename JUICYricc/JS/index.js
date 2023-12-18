@@ -117,3 +117,72 @@ function showSlidesSpot(n) {
   slides[slideIndexSpot - 1].style.display = "block";
   dots[slideIndexSpot - 1].className += " active";
 }
+
+const buttonLight = document.getElementById("button__light");
+buttonLight.addEventListener("click", function () {
+  buttonLight.classList.toggle("button__light--active");
+  const navbar__one = document.getElementsByClassName(
+    "navbar__logo--container--backround"
+  );
+  const navbar__two = document.getElementsByClassName(
+    "navbar__navigation--container--backround"
+  );
+  const navbar__link = document.getElementsByClassName("navbar__link");
+  const button__signin = document.getElementsByClassName("button__signin");
+  const main__spot = document.getElementsByClassName("main__spot--section");
+  const new_in__section = document.getElementsByClassName("new-in__section");
+  const user__icon = document.getElementsByClassName("user--icon__container");
+  const footer__one = document.getElementsByClassName("footer__one");
+  const footer__two = document.getElementsByClassName("footer__two");
+  const footer__item = document.getElementsByClassName("footer__one--item");
+  const footer__item__content = document.getElementsByClassName(
+    "footer__item--link--one"
+  );
+  const new_in__backgr = document.getElementsByClassName(
+    "new-in__background--bot"
+  );
+
+  const traffic__banner = document.getElementsByClassName(
+    "website__traffic--banner"
+  );
+
+  if (buttonLight.className === "button__light--toggle button__light--active") {
+    for (let i = 0; i < navbar__link.length; i++) {
+      navbar__link[i].style.color = "#fff";
+    }
+    navbar__one[0].style.backgroundColor = "#0C0032";
+    navbar__two[0].style.backgroundColor = "#3500D3";
+    traffic__banner[0].style.backgroundColor = "#0C0032";
+    main__spot[0].style.backgroundColor = "#0C0032";
+    new_in__section[0].style.backgroundColor = "#0C0032";
+    new_in__backgr[0].style.display = "none";
+    user__icon[0].style.backgroundColor = "#11004a";
+    footer__one[0].style.backgroundColor = "#3500D3";
+    footer__two[0].style.backgroundColor = "#0C0032";
+    for (let i = 0; i < footer__item__content.length; i++) {
+      footer__item__content[i].style.color = "#fff";
+    }
+    for (let i = 0; i < footer__item.length; i++) {
+      footer__item[i].style.color = "#fff";
+    }
+  } else {
+    for (let i = 0; i < navbar__link.length; i++) {
+      navbar__link[i].style.color = "#131313";
+    }
+    navbar__one[0].style.backgroundColor = "#131313";
+    navbar__two[0].style.backgroundColor = "aquamarine";
+    traffic__banner[0].style.backgroundColor = "#131313";
+    main__spot[0].style.backgroundColor = "#131313";
+    new_in__section[0].style.backgroundColor = "#131313";
+    new_in__backgr[0].style.display = "block";
+    user__icon[0].style.backgroundColor = "#252525";
+    footer__one[0].style.backgroundColor = "aquamarine";
+    footer__two[0].style.backgroundColor = "#131313";
+    for (let i = 0; i < footer__item__content.length; i++) {
+      footer__item__content[i].style.color = "#131313";
+    }
+    for (let i = 0; i < footer__item.length; i++) {
+      footer__item[i].style.color = "#131313";
+    }
+  }
+});
