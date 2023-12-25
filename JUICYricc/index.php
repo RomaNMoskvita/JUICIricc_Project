@@ -476,7 +476,7 @@
         </div>
         <div class="user--icon__card">
             <div id="button__winners--container">
-                <div id="button__winners"><button onclick="userIconControll()">Winners</button></div>
+                <div id="button__winners"><button id="show__winners" onclick="userIconControll()">Winners</button></div>
                 <img class="user--icon" src="Images/avatar_3.png" alt="">
             </div>
 

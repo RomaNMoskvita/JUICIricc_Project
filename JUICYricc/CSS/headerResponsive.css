@@ -185,6 +185,10 @@ html{
     fill: #fff;
   }
 
+  .navbar__icons svg:hover{
+    fill: #a9a9a9;
+  }
+
   /* Navbar Section 2 */
   .navbar__navigation--container--backround{
     display: flex;

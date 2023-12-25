@@ -170,6 +170,10 @@
     fill: #fff;
   }
 
+  .navbar__icons svg:hover{
+    fill: #a9a9a9;
+  }
+
 /*Navbar Style Section*/
 .navbar__navigation__container{
     display: flex;
@@ -201,11 +205,12 @@
     font-size: 1.1rem;
     color: black;
     width: 80px;
+    
 }
 
 .navbar__link:hover{
     border: 3px solid #131313;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .navbar__JUICYricc__container{

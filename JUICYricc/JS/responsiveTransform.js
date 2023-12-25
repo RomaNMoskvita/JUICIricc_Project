@@ -28,10 +28,12 @@ function updateStylesheet() {
   //
   const userIcon = document.getElementById("user--icon__container--controll");
   setTimeout(function () {
-    if (window.innerWidth < 1200) {
-      console.log("i am hear");
+    if (700 < window.innerWidth && window.innerWidth < 1200) {
       let actualResize = window.innerWidth;
       userIcon.style.left = `calc(1160px + ${actualResize - 1200}px)`;
+    } else if (window.innerWidth < 700) {
+      let actualResize = window.innerWidth;
+      userIcon.style.left = `calc(1160px + ${actualResize - 1180}px)`;
     }
   }, 100);
 }

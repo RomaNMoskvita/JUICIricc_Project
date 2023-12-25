@@ -770,7 +770,7 @@ text-align: center;
   }
   .point__slideshow--bar--hor{
     position: relative;
-    top: 10px;
+    top: 6px;
   }
 
   .slide__text{
@@ -1515,6 +1515,20 @@ text-align: center;
     .new-in__two--section{
         height: 850px;
     } 
+
+    .user--icon__container{
+        width: 160px;
+    }
+
+    .userIconForward{
+        transform: translate(-140px, 0px);
+    }
+
+    #button__winners{
+        position: absolute;
+        margin-left: -80px;
+        display: block;
+    }
   }
 
   @media screen and (max-width: 600px){
@@ -1566,6 +1580,11 @@ text-align: center;
   }
 
   @media screen and (max-width: 450px){
+
+    .spot__right--slideshow {
+        max-height: 260px;
+    }
+
     .new-in__two--section{
         height: 600px;
     } 
@@ -1611,7 +1630,10 @@ text-align: center;
   }
 
   @media screen and (max-width: 380px) {
+    .spot__right--slideshow {
+        max-height: 240px;
+    }
     .main__spot--section{
-        height: 1080px;
+        height: 1180px;
     } 
   }

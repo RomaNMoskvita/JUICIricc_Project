@@ -145,6 +145,7 @@ buttonLight.addEventListener("click", function () {
   const traffic__banner = document.getElementsByClassName(
     "website__traffic--banner"
   );
+  const show__winners = document.getElementById("show__winners");
 
   if (buttonLight.className === "button__light--toggle button__light--active") {
     for (let i = 0; i < navbar__link.length; i++) {
@@ -157,6 +158,7 @@ buttonLight.addEventListener("click", function () {
     new_in__section[0].style.backgroundColor = "#0C0032";
     new_in__backgr[0].style.display = "none";
     user__icon[0].style.backgroundColor = "#11004a";
+    show__winners.style.backgroundColor = "#11004a";
     footer__one[0].style.backgroundColor = "#3500D3";
     footer__two[0].style.backgroundColor = "#0C0032";
     for (let i = 0; i < footer__item__content.length; i++) {
@@ -184,5 +186,6 @@ buttonLight.addEventListener("click", function () {
     for (let i = 0; i < footer__item.length; i++) {
       footer__item[i].style.color = "#131313";
     }
+    show__winners.style.backgroundColor = "#252525";
   }
 });
