@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../CSS/loginResponsive.css">
 </head>
 
-<body>
+<body id="body__element">
     <div class="navbar__container">
         <nav class="navbar">
             <div class="navbar__logo--container--backround">
@@ -91,11 +91,29 @@
                                 <span>Which sport interests you the most? (optional)</span>
                                 <div class="signup__optional--form">
                                     <form action="/action_page.php">
-                                        <label for="vehicle1"><input type="checkbox" id="vehicle1" name="vehicle1" value="bmx"> I have a BMX </label>
-                                        <label for="vehicle2"><input type="checkbox" id="vehicle2" name="vehicle2" value="skate"> I have a Skate</label>
-                                        <label for="vehicle3"><input type="checkbox" id="vehicle3" name="vehicle3" value="scooter"> I have a scooter</label>
-                                        <input type="submit" value="Submit">
+                                        <label class="container" for="vehicle1">
+                                            <input type="radio" id="vehicle1" name="vehicle" value="bmx">
+                                            <span class="checkmark"></span>
+                                            I have a BMX
+                                        </label>
+                                        <label class="container" for="vehicle2">
+                                            <input type="radio" id="vehicle2" name="vehicle" value="skate">
+                                            <span class="checkmark"></span>
+                                            I have a Skate
+                                        </label>
+                                        <label class="container" for="vehicle3">
+                                            <input type="radio" id="vehicle3" name="vehicle" value="scooter">
+                                            <span class="checkmark"></span>
+                                            I have a Scooter
+                                        </label>
+                                        <input id="radio-submit" type="submit" value="Submit">
                                     </form>
+                                    <span>By creating an account, you accept our <a href="#">Terms and Conditions</a>. Read our <a href="#">Privacy Policy</a>.</span>
+                                    <p>* mandatory fields</p>
+                                    <p>**In your account you will find an overview of
+                                        all the e-mails you have received and their frequency.
+                                        You can choose which ones you want to receive,
+                                        or unsubscribe at any time via a link in each email.</p>
                                 </div>
                             </div>
 
@@ -111,7 +129,7 @@
 
     <!-- Footer Section -->
 
-    <footer>
+    <footer id="login__footer">
 
     </footer>
 
