@@ -271,6 +271,14 @@ form{
     flex-direction: column;
   }
 
+  /*Password Validate Section*/
+
+  #password-validate-feedback{
+    font-size: 0.8rem;
+    margin-left: 10px;
+    height: 14px;
+  }
+
   /*Customize the label */
   .container{
     display: block;

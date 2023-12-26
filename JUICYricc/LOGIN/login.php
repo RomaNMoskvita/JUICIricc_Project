@@ -83,8 +83,8 @@
                             <input type="text" placeholder="Email address" name="email" required>
 
                             <label for="password">Password*</label>
-                            <input type="password" placeholder="Enter Password" name="password" required>
-                            <span>Your password must be at least 8 characters long.</span>
+                            <input id="password-validate" type="password" placeholder="Enter Password" name="password" required>
+                            <span id="password-validate-feedback"></span>
 
                             <button id="signup" type="submit">Sign Up</button>
                             <div class="signup__optional">
