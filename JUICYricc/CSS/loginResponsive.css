@@ -107,42 +107,74 @@
     background-color: #131313;
 }
 
+/*Style for input*/
+
 input[type=text], input[type=password] {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 14px 26px;
+    margin: 10px 0;
     display: inline-block;
     border: 1px solid #ccc;
+    border-radius: 10px;
     box-sizing: border-box;
   }
 
+  .input-email-icon{
+    padding-left: 30px; 
+    background-image: url("../Images/apple_input_login.png"); 
+    background-repeat: no-repeat;
+    background-position: 5px center; 
+    background-size: 20px 20px; 
+  }
+
+  .input-password-icon{
+    padding-left: 30px; 
+    background-image: url("../Images/papaya_input_password.png"); 
+    background-repeat: no-repeat;
+    background-position: 5px center; 
+    background-size: 20px 20px; 
+  }
+
   #login {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #fff;
+    color: #131313;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: 2px solid #131313;
+    border-radius: 4px;
     cursor: pointer;
     width: 100%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition-duration: 0.4s;
   }
   
   #login:hover {
-    opacity: 0.8;
+    background-color: #131313;
+    color: #fff;
+  }
+
+  #remember-opt{
+    accent-color: #131313;
+    cursor: pointer;
+  }
+
+  .frg__password a{
+    color: #131313;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom: 4px;
+  }
+
+  .frg__password a:hover{
+    color: #5a5a5a;
+    border-bottom: 2px solid #131313;
   }
 
   .login__opt__container{
     display: flex;
     justify-content: space-between;
   }
-
-  hr{
-    border: 1px solid black; /* You can adjust the thickness and color */
-    width: 100%;
-    opacity: 0.2;
-    margin-top: 20px;
-    position: relative;
-    bottom: 80px;
-    }
 
 form{
     margin-top: 20px;
@@ -154,6 +186,7 @@ form{
     bottom: 80px;
     background-color: #fff;
     transition: transform 0.3s ease;
+    width: 30rem;
 }
 
 .signin__hide{
@@ -162,7 +195,7 @@ form{
 }
 
 .signup__show{
-    transform: translateY(-170px);
+    transform: translateY(-200px);
     transition: transform 0.3s ease;
 }
 
@@ -327,15 +360,10 @@ form{
   height: 400px;
 }
 
-.footer__move{
-  
-}
-
 .signup__move{
   transform: translateY(-80px);
   transition: transform 2s ease;
 }
-
 
 /* Footer Section */
 

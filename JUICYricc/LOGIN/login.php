@@ -45,15 +45,15 @@
                 <form class="login__form--active" id="login__form" action="/action_page.php" method="post">
                     <div class="login__form__container">
                         <label for="username">Login</label>
-                        <input type="text" placeholder="Enter E-mail" name="username" required>
+                        <input type="text" class="input-email-icon" placeholder="Enter E-mail" name="username" required>
 
                         <label for="password">Password</label>
-                        <input type="password" placeholder="Enter Password" name="password" required>
+                        <input type="password" class="input-password-icon" placeholder="Enter Password" name="password" required>
 
                         <button id="login" type="submit">Login</button>
                         <div class="login__opt__container">
                             <label>
-                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                                <input id="remember-opt" type="checkbox" checked="checked" name="remember"> Remember me
                             </label>
                             <span class="frg__password"><a href="#">Forgot password?</a></span>
                         </div>
